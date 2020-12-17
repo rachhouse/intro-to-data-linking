@@ -1,22 +1,52 @@
 import streamlit as st
 
-st.set_page_config(page_title="Intro to Data Linking in Python")
+import pages.blocking
+import pages.cleaning
+import pages.overview
+import pages.problem_statement
 
-st.title("An Introduction to Data Linking in Python")
+VALID_PAGE_PARAMS = ["intro", "cleaning", "blocking", "problem_statement"]
 
-with st.echo():
-    import datetime
-    import dateparser
-    import pandas as pd
-    import re
+st.set_page_config(
+    page_title="Intro to Data Linking in Python", initial_sidebar_state="collapsed"
+)
 
+# The starting page can be passed in as a query param on the
+# streamlit URL, e.g.
+#   http://url-to-streamlit-app?page=blocking
+query_params = st.experimental_get_query_params()
 
-with st.echo():
-    df_jvc = pd.read_csv("data/jvc_raw.csv")
+page_query_param = None
 
-st.write(df_jvc.head())
+if ("page" in query_params.keys()) and (
+    query_params["page"][0].lower() in VALID_PAGE_PARAMS
+):
+    page_query_param = query_params["page"][0].title()
+    page_query_param = page_query_param.replace("_", " ")
 
-with st.echo():
-    df_vandal = pd.read_csv("data/vandal_raw.csv")
+# Sidebar: add a title and radio button toggle for page selection.
+st.sidebar.title("An Introduction to Data Linking in Python")
+st.sidebar.markdown("Rachel House | December 2020")
 
-st.write(df_vandal.head())
+page_names = ["Overview", "Problem Statement", "Cleaning", "Blocking"]
+
+pages = {
+    "Overview": pages.overview,
+    "Problem Statement": pages.problem_statement,
+    "Cleaning": pages.cleaning,
+    "Blocking": pages.blocking,
+}
+
+# Set the radio button to the page supplied by the query param
+# (if it exists). Otherwise, just load the Intro page.
+if page_query_param is not None:
+    page_selection = st.sidebar.radio(
+        "", page_names, index=page_names.index(page_query_param)
+    )
+else:
+    page_selection = st.sidebar.radio("", page_names)
+
+page = pages[page_selection]
+
+with st.spinner(f"Loading {page_selection}..."):
+    page.main()
