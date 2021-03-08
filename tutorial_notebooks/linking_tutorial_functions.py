@@ -1,19 +1,16 @@
 """Contains functions used for Introduction to Data Linking tutorial notebooks."""
 
-import datetime
-import itertools
 import os
 import pathlib
 import re
-import uuid
-from typing import Optional, Tuple
+
+from typing import Dict, Tuple, Optional
 
 import altair as alt
-import jellyfish
 import numpy as np
 import pandas as pd
 import recordlinkage as rl
-import sklearn
+import jellyfish
 
 
 DATA_DIR = pathlib.Path(__file__).parents[1] / "data"
@@ -24,15 +21,15 @@ TRAINING_LABELS = DATA_DIR / "febrl_training_labels.csv"
 
 
 def load_febrl_training_data() -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
-    """ Load the FEBRL training data.
+    """Load the FEBRL training data.
 
-        Returns:
-            left entity dataframe: pandas dataframe containing "left" dataset
-                of FEBRL people data, indexed by person id
-            right entity dataframe: pandas dataframe containing "right" dataset
-                of FEBRL people data, indexed by person id
-            training data labels: dataframe containing ground truth positive links,
-                indexed by left person id, right person id
+    Returns:
+        left entity dataframe: pandas dataframe containing "left" dataset
+            of FEBRL people data, indexed by person id
+        right entity dataframe: pandas dataframe containing "right" dataset
+            of FEBRL people data, indexed by person id
+        training data labels: dataframe containing ground truth positive links,
+            indexed by left person id, right person id
     """
     df_A = pd.read_csv(TRAINING_DATASET_A)
     df_A = df_A.set_index("person_id_A")
@@ -40,10 +37,13 @@ def load_febrl_training_data() -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame
     df_B = pd.read_csv(TRAINING_DATASET_B)
     df_B = df_B.set_index("person_id_B")
 
-    df_labels = pd.read_csv(TRAINING_LABELS)
-    df_labels = df_labels.set_index(['person_id_A', 'person_id_B'])
+    df_ground_truth = pd.read_csv(TRAINING_LABELS)
+    df_ground_truth = df_ground_truth.set_index(["person_id_A", "person_id_B"])
+    df_ground_truth["ground_truth"] = df_ground_truth["ground_truth"].apply(
+        lambda x: True if x == 1 else False
+    )
 
-    return df_A, df_B, df_labels
+    return df_A, df_B, df_ground_truth
 
 
 def load_febrl_evaluation_data() -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
@@ -208,3 +208,261 @@ def compare(
     )
 
     return comparer.compute(candidate_links, df_left, df_right)
+
+
+def evaluate_linking(
+    df: pd.DataFrame,
+    df_true_links: pd.DataFrame,
+    df_left: pd.DataFrame,
+    df_right: pd.DataFrame,
+    score_column_name: Optional[str] = "model_score",
+    ground_truth_column_name: Optional[str] = "ground_truth",
+    k: int = 10,
+) -> Tuple[Dict[str, int], pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+    """Use model results to calculate blocking evaluation, precision & recall metrics,
+    top k links, and bottom k links.
+
+    Args:
+        df: dataframe containing model scores, and ground truth labels
+            indexed on df_left index, df_right index
+        df_true_links: dataframe containing true links,
+            indexed on df_left index, df_right index
+        df_left: dataframe containing attributes for "left"-linked entities
+        df_right: dataframe containing attributes for "right"-linked entities
+        score_column_name: Optional string name of column containing model scores
+        ground_truth_column_name: Optional string name of column containing ground
+            truth values
+
+    Returns:
+        Tuple containing:
+            dict with blocking evaluation data
+            pandas dataframe with precision and recall evaluation data
+            pandas dataframe with top k scoring links
+            pandas dataframe with bottom k scoring links
+    """
+    # Calculate how many true links were present in blocked data.
+    # Join known true links to dataframe with candidate links -
+    # i.e. identify the intersection. This gives us the true links
+    # present after blocking.
+    total_true_links = df_true_links.shape[0]
+    true_links_after_blocking = pd.merge(
+        df_true_links, df, left_index=True, right_index=True, how="inner"
+    ).shape[0]
+
+    blocking_evalution = {
+        "total_true_links": total_true_links,
+        "true_links_after_blocking": true_links_after_blocking,
+        "true_link_pct_after_blocking": round(
+            (true_links_after_blocking / total_true_links) * 100, 0
+        ),
+    }
+
+    # Calculate eval data at threshold intervals from zero to max score.
+    # Max score is generally 1.0 if using a ML model, but with SimSum it
+    # can get much larger.
+    eval_data = []
+    max_score = max(1, max(df[score_column_name]))
+
+    for threshold in np.linspace(0, max_score, 50):
+        tp = df[
+            (df[score_column_name] >= threshold)
+            & (df[ground_truth_column_name] == True)
+        ].shape[0]
+        fp = df[
+            (df[score_column_name] >= threshold)
+            & (df[ground_truth_column_name] == False)
+        ].shape[0]
+        tn = df[
+            (df[score_column_name] < threshold)
+            & (df[ground_truth_column_name] == False)
+        ].shape[0]
+        fn = df[
+            (df[score_column_name] < threshold) & (df[ground_truth_column_name] == True)
+        ].shape[0]
+
+        if tp+fp == 0:
+            precision = None
+        else:
+            precision = tp / (tp + fp)
+
+        if tp+fn == 0:
+            recall = None
+        else:
+            recall = tp / (tp + fn)
+
+        if (precision is None) or (recall is None):
+            f1 = None
+        else:
+            f1 = 2 * ((precision * recall) / (precision + recall))
+
+
+        eval_data.append(
+            {
+                "threshold": threshold,
+                "tp": tp,
+                "fp": fp,
+                "tn": tn,
+                "fn": fn,
+                "precision": precision,
+                "recall": recall,
+                "f1": f1,
+            }
+        )
+
+    # Assemble the top and bottom k links (sorted by model score).
+    # This is done by sorting the model results frame by score, capping rows at k,
+    # and then joining the original link entity data via the dataframe indices.
+    # This gives us the model score as well as the actual human-readable attributes
+    # for each link.
+    def _join_original_entity_data_to_links(
+        df_k_links: pd.DataFrame, df_left: pd.DataFrame, df_right: pd.DataFrame
+    ) -> pd.DataFrame:
+        """Helper function to join entity data to a dataframe of link results."""
+
+        # Join data from left entities.
+        df_k_links = pd.merge(
+            df_k_links,
+            df_left,
+            left_on=df_left.index.name,
+            right_index=True,
+        )
+
+        # Join data from right entities.
+        return pd.merge(
+            df_k_links,
+            df_right,
+            left_on=df_right.index.name,
+            right_index=True,
+        )
+
+    df_top_k_links = _join_original_entity_data_to_links(
+        df[[score_column_name, ground_truth_column_name]]
+        .sort_values(score_column_name, ascending=False)
+        .head(n=k)
+        .reset_index(),
+        df_left,
+        df_right,
+    )
+
+    df_bottom_k_links = _join_original_entity_data_to_links(
+        df[[score_column_name, ground_truth_column_name]]
+        .sort_values(score_column_name)
+        .head(n=k)
+        .reset_index(),
+        df_left,
+        df_right,
+    )
+
+    return (
+        blocking_evalution,
+        pd.DataFrame(eval_data),
+        df_top_k_links,
+        df_bottom_k_links,
+    )
+
+
+def plot_model_score_distribution(
+    df: pd.DataFrame,
+    score_column_name: Optional[str] = "model_score",
+    ground_truth_column_name: Optional[str] = "ground_truth",
+) -> alt.Chart:
+    """Generate an altair plot of the model score distribution, colored by ground
+    truth value.
+
+    Args:
+        df: pandas dataframe containing model score and ground truth for all
+            candidate links
+        score_column_name: Optional string name of column containing model scores
+        ground_truth_column_name: Optional string name of column containing ground
+            truth values
+
+    Returns:
+        altair Chart object containing distribution
+    """
+
+    # Pre-bin model score data for plotting.
+    df_score_dist = df[[score_column_name, ground_truth_column_name]].copy()
+    df_score_dist[ground_truth_column_name] = df_score_dist[
+        ground_truth_column_name
+    ].apply(lambda x: "True Link" if x else "Not a Link")
+    df_score_dist[score_column_name] = df_score_dist[score_column_name].apply(
+        lambda x: round(x, 2)
+    )
+    df_score_dist["count"] = df_score_dist[ground_truth_column_name]
+    df_score_dist = (
+        df_score_dist.groupby([score_column_name, ground_truth_column_name])
+        .count()
+        .reset_index()
+    )
+
+    # Generate altair chart of model score distribution.
+    legend_selection = alt.selection_multi(
+        fields=[ground_truth_column_name], bind="legend"
+    )
+
+    color_scale = alt.Scale(
+        domain=["True Link", "Not a Link"],
+        scheme="tableau10",
+    )
+
+    max_score = max(1, max(df_score_dist[score_column_name]))
+
+    model_score_distribution = (
+        alt.Chart(df_score_dist, title=f"Model Score Distribution")
+        .mark_bar(opacity=0.7, binSpacing=0)
+        .encode(
+            alt.X(
+                f"{score_column_name}:Q",
+                bin=alt.Bin(extent=[0, max_score], step=0.01),
+                axis=alt.Axis(tickCount=5, title="Model Score (Binned)"),
+            ),
+            alt.Y("count", stack=None, axis=alt.Axis(title="Count of Links")),
+            alt.Color(
+                f"{ground_truth_column_name}",
+                scale=color_scale,
+                legend=alt.Legend(title="Ground Truth Label"),
+            ),
+            opacity=alt.condition(legend_selection, alt.value(0.7), alt.value(0.2)),
+            tooltip=[
+                alt.Tooltip(f"{score_column_name}", title="Model Score"),
+                alt.Tooltip(f"{ground_truth_column_name}", title="Ground Truth"),
+                alt.Tooltip("count", title="Count of Links"),
+            ],
+        )
+        .properties(height=400, width=800)
+        .add_selection(legend_selection)
+        .interactive()
+    )
+
+    return model_score_distribution
+
+
+def plot_precision_recall_vs_threshold(df: pd.DataFrame) -> alt.Chart:
+    """Generate an altair plot of model precision and recall at varying thresholds.
+
+    Args:
+        df: pandas dataframe containing precision and recall values at given thresholds
+
+    Returns:
+        altair Chart object
+    """
+    pr_at_threshold = (
+        alt.Chart(
+            df[["threshold", "recall", "precision"]].melt(id_vars=["threshold"]),
+            title="Precision and Recall v.s. Model Threshold",
+        )
+        .mark_line()
+        .encode(
+            alt.X("threshold:Q", axis=alt.Axis(title="Model Threshold")),
+            alt.Y(
+                "value:Q",
+                scale=alt.Scale(domain=(0, 1)),
+                axis=alt.Axis(title="Precision/Recall Value"),
+            ),
+            alt.Color("variable:N", legend=alt.Legend(title="Variable")),
+            tooltip=alt.Tooltip(["variable", "threshold", "value"]),
+        )
+        .properties(height=400, width=800)
+    )
+
+    return pr_at_threshold
