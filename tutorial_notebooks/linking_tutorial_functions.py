@@ -3,15 +3,13 @@
 import os
 import pathlib
 import re
-
-from typing import Dict, Tuple, Optional
+from typing import Dict, Optional, Tuple
 
 import altair as alt
+import jellyfish
 import numpy as np
 import pandas as pd
 import recordlinkage as rl
-import jellyfish
-
 
 DATA_DIR = pathlib.Path(__file__).parents[1] / "data"
 
@@ -218,9 +216,9 @@ def evaluate_linking(
     score_column_name: Optional[str] = "model_score",
     ground_truth_column_name: Optional[str] = "ground_truth",
     k: int = 10,
-) -> Tuple[Dict[str, int], pd.DataFrame, pd.DataFrame, pd.DataFrame]:
-    """Use model results to calculate blocking evaluation, precision & recall metrics,
-    top k links, and bottom k links.
+) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+    """Use model results to calculate precision & recall metrics, top k links,
+        and bottom k links.
 
     Args:
         df: dataframe containing model scores, and ground truth labels
@@ -235,27 +233,10 @@ def evaluate_linking(
 
     Returns:
         Tuple containing:
-            dict with blocking evaluation data
             pandas dataframe with precision and recall evaluation data
             pandas dataframe with top k scoring links
             pandas dataframe with bottom k scoring links
     """
-    # Calculate how many true links were present in blocked data.
-    # Join known true links to dataframe with candidate links -
-    # i.e. identify the intersection. This gives us the true links
-    # present after blocking.
-    total_true_links = df_true_links.shape[0]
-    true_links_after_blocking = pd.merge(
-        df_true_links, df, left_index=True, right_index=True, how="inner"
-    ).shape[0]
-
-    blocking_evalution = {
-        "total_true_links": total_true_links,
-        "true_links_after_blocking": true_links_after_blocking,
-        "true_link_pct_after_blocking": round(
-            (true_links_after_blocking / total_true_links) * 100, 0
-        ),
-    }
 
     # Calculate eval data at threshold intervals from zero to max score.
     # Max score is generally 1.0 if using a ML model, but with SimSum it
@@ -280,12 +261,12 @@ def evaluate_linking(
             (df[score_column_name] < threshold) & (df[ground_truth_column_name] == True)
         ].shape[0]
 
-        if tp+fp == 0:
+        if tp + fp == 0:
             precision = None
         else:
             precision = tp / (tp + fp)
 
-        if tp+fn == 0:
+        if tp + fn == 0:
             recall = None
         else:
             recall = tp / (tp + fn)
@@ -294,7 +275,6 @@ def evaluate_linking(
             f1 = None
         else:
             f1 = 2 * ((precision * recall) / (precision + recall))
-
 
         eval_data.append(
             {
@@ -354,7 +334,6 @@ def evaluate_linking(
     )
 
     return (
-        blocking_evalution,
         pd.DataFrame(eval_data),
         df_top_k_links,
         df_bottom_k_links,
@@ -463,6 +442,7 @@ def plot_precision_recall_vs_threshold(df: pd.DataFrame) -> alt.Chart:
             tooltip=alt.Tooltip(["variable", "threshold", "value"]),
         )
         .properties(height=400, width=800)
+        .interactive()
     )
 
     return pr_at_threshold
