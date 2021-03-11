@@ -1,9 +1,8 @@
 """Contains functions used for Introduction to Data Linking tutorial notebooks."""
 
-import os
 import pathlib
 import re
-from typing import Dict, Optional, Tuple
+from typing import Dict, Optional, Tuple, Union
 
 import altair as alt
 import jellyfish
@@ -17,9 +16,45 @@ TRAINING_DATASET_A = DATA_DIR / "febrl_training_a.csv"
 TRAINING_DATASET_B = DATA_DIR / "febrl_training_b.csv"
 TRAINING_LABELS = DATA_DIR / "febrl_training_labels.csv"
 
+PathOrURL = Union[pathlib.Path, str]
 
-def load_febrl_training_data() -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+
+def get_training_data_paths(
+    colab: bool = False,
+) -> Tuple[PathOrURL, PathOrURL, PathOrURL]:
+    """Assemble either pathlib.Path or string URL for each of the training data files.
+
+    Args:
+        colab: bool to indicate whether the notebook is running in Google Colab
+
+    Returns:
+        * resource path to febrl_training_a.csv
+        * resourcepath to febrl_training_b.csv
+        * resource path to febrl_training_labels.csv
+    """
+    if colab:
+        data_url = "https://raw.githubusercontent.com/rachhouse/intro-to-data-linking/main/data/"
+
+        training_dataset_a = f"{data_url}febrl_training_a.csv"
+        training_dataset_b = f"{data_url}febrl_training_b.csv"
+        training_labels = f"{data_url}febrl_training_labels.csv"
+
+    else:
+        data_dir = pathlib.Path(__file__).parents[1] / "data"
+        training_dataset_a = data_dir / "febrl_training_a.csv"
+        training_dataset_b = data_dir / "febrl_training_b.csv"
+        training_labels = data_dir / "febrl_training_labels.csv"
+
+    return training_dataset_a, training_dataset_b, training_labels
+
+
+def load_febrl_training_data(
+    colab: bool = False,
+) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     """Load the FEBRL training data.
+
+    Args:
+        colab: bool to indicate whether the notebook is running in Google Colab
 
     Returns:
         left entity dataframe: pandas dataframe containing "left" dataset
@@ -29,13 +64,18 @@ def load_febrl_training_data() -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame
         training data labels: dataframe containing ground truth positive links,
             indexed by left person id, right person id
     """
-    df_A = pd.read_csv(TRAINING_DATASET_A)
+
+    training_dataset_a, training_dataset_b, training_labels = get_training_data_paths(
+        colab
+    )
+
+    df_A = pd.read_csv(training_dataset_a)
     df_A = df_A.set_index("person_id_A")
 
-    df_B = pd.read_csv(TRAINING_DATASET_B)
+    df_B = pd.read_csv(training_dataset_b)
     df_B = df_B.set_index("person_id_B")
 
-    df_ground_truth = pd.read_csv(TRAINING_LABELS)
+    df_ground_truth = pd.read_csv(training_labels)
     df_ground_truth = df_ground_truth.set_index(["person_id_A", "person_id_B"])
     df_ground_truth["ground_truth"] = df_ground_truth["ground_truth"].apply(
         lambda x: True if x == 1 else False
@@ -56,7 +96,8 @@ def dob_to_date(dob: str) -> Optional[pd.Timestamp]:
     dob_timestamp = None
 
     try:
-        if m := re.match(date_pattern, dob.strip()):
+        m = re.match(date_pattern, dob.strip())
+        if m:
             dob_timestamp = pd.Timestamp(
                 int(m.group(1)), int(m.group(2)), int(m.group(3))
             )
