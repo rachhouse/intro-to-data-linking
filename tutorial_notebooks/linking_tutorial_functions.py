@@ -56,7 +56,8 @@ def dob_to_date(dob: str) -> Optional[pd.Timestamp]:
     dob_timestamp = None
 
     try:
-        if m := re.match(date_pattern, dob.strip()):
+        m = re.match(date_pattern, dob.strip())
+        if m:
             dob_timestamp = pd.Timestamp(
                 int(m.group(1)), int(m.group(2)), int(m.group(3))
             )
