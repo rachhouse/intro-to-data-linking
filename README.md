@@ -13,6 +13,6 @@ The tutorial notebooks are meant to be run in [Google Colab](https://colab.resea
 
 ![How to open tutorial notebooks via Colab badge.](https://raw.githubusercontent.com/rachhouse/intro-to-data-linking/main/docs/_static/open_notebook_via_colab_badge.png)
 
-2. To open the tutorial notebooks directly from Colab, navigate to the **GitHub** tab in the Colab opening dialog. Paste this repo's URL (`https://github.com/rachhouse/intro-to-data-linking`) on the input line and then click the magnifying glass to load the available notebooks. Make sure you are on brain **main**. From there, simply click on the notebook you'd like to open, and Colab will load it.
+2. To open the tutorial notebooks directly from Colab, navigate to the **GitHub** tab in the Colab opening dialog. Paste this repo's URL (`https://github.com/rachhouse/intro-to-data-linking`) on the input line and then click the magnifying glass to load the available notebooks. Make sure you are on branch **main**. From there, simply click on the notebook you'd like to open, and Colab will load it.
 
 ![How to open tutorial notebooks directly in Google Colab.](https://raw.githubusercontent.com/rachhouse/intro-to-data-linking/main/docs/_static/open_github_notebooks_in_colab.png)
