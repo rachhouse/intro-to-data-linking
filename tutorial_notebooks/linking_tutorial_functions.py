@@ -10,12 +10,6 @@ import numpy as np
 import pandas as pd
 import recordlinkage as rl
 
-DATA_DIR = pathlib.Path(__file__).parents[1] / "data"
-
-TRAINING_DATASET_A = DATA_DIR / "febrl_training_a.csv"
-TRAINING_DATASET_B = DATA_DIR / "febrl_training_b.csv"
-TRAINING_LABELS = DATA_DIR / "febrl_training_labels.csv"
-
 PathOrURL = Union[pathlib.Path, str]
 
 
@@ -30,20 +24,20 @@ def get_training_data_paths(
     Returns:
         * resource path to febrl_training_a.csv
         * resourcepath to febrl_training_b.csv
-        * resource path to febrl_training_labels.csv
+        * resource path to febrl_training_true_links.csv
     """
     if colab:
-        data_url = "https://raw.githubusercontent.com/rachhouse/intro-to-data-linking/main/data/"
+        data_url = "https://raw.githubusercontent.com/rachhouse/intro-to-data-linking/main/data/training/"
 
         training_dataset_a = f"{data_url}febrl_training_a.csv"
         training_dataset_b = f"{data_url}febrl_training_b.csv"
-        training_labels = f"{data_url}febrl_training_labels.csv"
+        training_labels = f"{data_url}febrl_training_true_links.csv"
 
     else:
-        data_dir = pathlib.Path(__file__).parents[1] / "data"
+        data_dir = pathlib.Path(__file__).parents[1] / "data" / "training"
         training_dataset_a = data_dir / "febrl_training_a.csv"
         training_dataset_b = data_dir / "febrl_training_b.csv"
-        training_labels = data_dir / "febrl_training_labels.csv"
+        training_labels = data_dir / "febrl_training_true_links.csv"
 
     return training_dataset_a, training_dataset_b, training_labels
 
