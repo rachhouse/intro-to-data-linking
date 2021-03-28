@@ -1,0 +1,1001 @@
+rec_id, given_name, surname, street_number, address_1, address_2, suburb, postcode, state, date_of_birth, age, phone_number, soc_sec_id, blocking_number
+rec-8-dup-0, nox, luchetti, 81, hanlon crescent, , bayswutier, 2020, nsw, , 35, , 9631891, 7
+rec-73-org,   alexander, white, 131, arthur circle, mountainside, findon, 3194, sa, 19700511, 33, 03 57199042, 2171618, 4
+rec-445-dup-0, clare, jason, 3, rowe place, , bacchus marsh, 2529, qld, 19721101, 21, 08 23844873, 9440240, 7
+rec-44-org,   jessica, bitmead, 14, gouger street, , preston, 2209, nsw, 19720203, 19, 04 02086798, 1761586, 5
+rec-102-dup-0, ruby, ridzg, 85, tadgell place, , pallarenda, 6107, vic, 19150994, 32, 08 44297080, 3527052, 7
+rec-426-org,   ebony, thorpe, 15, bundock place, mungo park, biggera waters, 2066, nsw, 19440324, , 02 09258471, 5489143, 4
+rec-406-dup-0, jessica, favero, 142, charteris cuescent, wirruna, coal point, 2226, nsp, 19491025, , 04 02675715, 7996794, 6
+rec-23-org,   lauren, zendili, 39, hardman street, scalabrini vlg, shoalwater, 3199, sa, 19450712, 27, 03 62621526, 8312649, 0
+rec-192-dup-0, alana, held, 43, dexterpstfeet, , 4700, bayview heights, act, 19970929, 32, 08 81945166, 4567211, 2
+rec-280-org,   dillon, scheepens, 36, marsden street, villa 3, armidale, 3429, nsw, 19401114, 34, 04 38325658, 4049083, 8
+rec-295-dup-0, isabella, , 6, place ogan, townhouse 5, brookdale, , wa, 19580312, , 04 25240868, 6317469, 2
+rec-32-dup-0, aaliyah, berrumqn, 14, mcginnessstreet, , figtree, 2263, nsw, 19970130, 31, 02 67459926, 1713452, 5
+rec-250-org,   catherine, novak, 19, drevermann street, , dalby, 3149, qld, 19980412, 20, 04 78177292, 6508853, 9
+rec-363-dup-0, isabelle, londen, 79, de chaid street, old post office, 2088, orelia, vic, 19031108, 24, 07 10499419, 5146677, 2
+rec-304-dup-0, jenna, fitzpaick, 99, arndell street, , keswick, 3147, qld, 19161011, 41, 04 30957513, 2174095, 9
+rec-483-org,   mitchell, morrison, 3, cumpston place, , rostrevor, 2099, nsw, 19140316, 38, 08 80729963, 6700529, 0
+rec-356-dup-0, haidn, thiessen, 42, ruddet ocace, , williamstown, 4350, nsw, 19980210, 31, 08 32119280, 1375432, 5
+rec-72-org,   ella, willmot, 18, robert lewis court, antelle park, oakleigh, 4455, qld, 19270208, 31, 08 51227241, 4858406, 2
+rec-7-dup-0, mitchell, gre, 9, eucumbene drive, , elsternwck, 4305, nsw, 19061112, , 04 99451801, 7593862, 8
+rec-388-org,   jason, webb, 8, derry street, flt 10, toowoomba, 5722, nsw, 19190203, 29, 02 61561933, 7901778, 2
+rec-332-dup-0, , hemlof, 143, mundang frescent, , avaoln, 3219, vic, 19250919, 25, 04 56549681, 9541848, 7
+rec-257-dup-0, oliver, campbeall, 6, cumpston place, , wahroonga, 2756, sa, 19930120, 21, 07 02562561, 7701115, 2
+rec-132-dup-0, jacob, van der ayk, 75, cowper street, heritage est, st clair, 4860, nsw, 19070914, 31, 04 29271078, 8608043, 2
+rec-18-dup-0, ruby, matthews, , baracchi crescent, , lakenvva, 5221, nsw, 19950929, 21, 02 21609319, 4865529, 9
+rec-331-dup-0, isabelle, matthws, 130, srrdet amangu, , bingoon, 4211, qld, 19830906, 26, 07 18642864, 2178452, 7
+rec-343-org,   harry, speight, 8, duffy street, river mews, yamba, 2295, vic, 19140416, 13, 08 96005861, 3882957, 7
+rec-469-org,   natalee, white, 41, brodribb street, heritage estate, mount gravatt, 4078, nsw, 19770223, 36, 03 49439932, 2338296, 1
+rec-62-org,   hannah, paterson, 7, crozier circuit, , bundaberg, 6056, nsw, 19410628, 24, 08 83578949, 6513387, 0
+rec-319-dup-0, harley, matthews, 48, kinkead street, , forbes, 7256, qlc, 19240010, , 03 55795637, 7972319, 7
+rec-187-dup-0, gehling, ella, 11, shepherd street, matakana, pooraka, 4865, nsw, 19240604, 22, 03 94041413, 8368586, 5
+rec-238-dup-0, julia, so, 103, caley crescent, , nuriootpa, 2305, nsw, 19540503, 31, 03 06248527, 2381354, 8
+rec-54-org,   erin, mccarthy, 112, jagga place, , , 2566, nsw, 19900718, 27, 03 80425453, 6891325, 5
+rec-229-org,   abby, siwak, 150, mackenzie street, springdale, riverstone, 2371, , 19270214, 32, 07 10250287, 2756633, 8
+rec-323-dup-0, lachlan, gogovcev, 40, stuart street, , ultioa, 3147, , 19861008, 6, 02 18862385, 2172389, 2
+rec-275-org,   isabelle, byers, 9, follett street, , farrer, 2230, nsw, 19470117, 25, 04 77364985, 7766716, 4
+rec-116-org,   isaac, vreugdenburg, 9, eildon place, lake macquarie vlge, berwick, 5214, qld, 19700820, 35, 03 79174413, 9760484, 0
+rec-172-dup-0, willam, wyllie, , dorrit black crescent, bulga wine estates, mckinnon, 6430, nsw, 19950706, 29, 03 96937057, 7809456, 1
+rec-265-dup-0, yden a, creagh, 39, mudge place, , brighton, 2586, nsw, 19750509, , 03 71974323, 9170014, 0
+rec-385-org,   amy, neumann, 21, costello circuit, torrington, caves beach, 6105, vic, , 28, 08 47807710, 3465200, 2
+rec-14-org,   lewis, madigan, 82, , , huonville, 6018, tas, 19000125, 11, 07 56843275, 9156534, 4
+rec-97-org,   kallie, richmond, 17, o'connor circuit, , highgate, 4506, sa, 19690824, , 04 40479766, 3273182, 2
+rec-255-org,   caleb, bridgland, 4, dalley crescent, , picnic point, 3079, sa, 19920723, , 07 42634786, 4728939, 1
+rec-316-org,   thomas, , 23, cornish place, , lake cathie, 2537, vic, 19191201, 30, 04 79173639, 4830420, 0
+rec-212-dup-0, harriert, edis, 9, o'shanassy street, airlie, morwell, 2207, act, 19580605, 28, 02 87350010, 5471542, 6
+rec-449-org,   finnbar, white, 4, hughes crescent, , moss vale, 4350, nsw, 19701007, 33, 04 45256586, 9110873, 6
+rec-143-org,   jaslyn, dumpe, 6, , , brookvale, 2300, vic, 19600718, 22, 02 58574080, 3433114, 0
+rec-121-dup-0, phoebe, whietq, 6, duigan street, lismore road, cairnt, 7316, viv, 19490630, , 02 88711358, 1483456, 9
+rec-357-org,   kenneth, millar, 87, mclaren crescent, , nedlands, 0830, qld, 19710928, 28, 03 15950675, 5298462, 8
+rec-259-org,   oliver, bishop, 17, lewis luxton avenue, the family practice at k-mart plaza, orange, 2329, qld, 19620411, 26, 07 72898696, 5765733, 8
+rec-18-org,   ruby, matthews, , baracchi crescent, , lakemba, 5221, nsw, 19950929, 21, 02 21609319, 4865529, 9
+rec-19-org,   riley, novis, 96, alderman street, , kilcoy, 2620, nsw, 19970406, 26, 04 98766590, 9263593, 4
+rec-254-org,   jayden, ryan, 33, chipperfield circuit, grandview, enoggera, 7015, wa, 19470608, , 03 04698944, 3706044, 9
+rec-419-dup-0, cameron, reido, 27, eddy crescent, , surfers paradise, 3460, nsw, 19000727, 30, 02 72620656, 2841768, 9
+rec-262-dup-0, samantha, hope, 27, mileham street, , bellambi, 4405, ac, 19171221, , 07 94955471, 6712649, 1
+rec-177-dup-0, riley, , 32, burkitt sfreet, , oatlands, 3500, qld, 19840306, 37, , 4192876, 6
+rec-461-org,   jack, toeta, 12, mount vernon drive, , blacksmiths, 6153, vic, 19330223, 26, 08 86070615, 7629816, 9
+rec-207-org,   montana, purser, 51, ashley drive, glenallen stud, killara, 6167, qld, 19011024, , 03 30628434, 2408296, 9
+rec-145-dup-0, lifshack, jasmyn, 92, highpoint, dooring street, ashgrove, 4575, , 19980721, , 07 56767569, 7685385, 4
+rec-184-org,   caleb, burford, 7, godfrey street, , mooroolbark, 5540, qld, 19481023, 26, 07 47545538, 7652526, 7
+rec-159-org,   katelin, bishop, 8, alinga street, , toowoomba, 4455, vic, 19001102, 22, 03 69315359, 9041309, 2
+rec-54-dup-0, erin, mccarthy, 112, jaggaqplace, , , 2566, nsw, 19900718, 27, 07 11405245, 6891325, 5
+rec-469-dup-0, nataoee, white, 41, brodribb street, , mount gravatt, 4079, nsw, 19770223, 13, 03 49439932, 2338296, 1
+rec-470-org,   brody, nonas, 282, oliver street, glen-vale, mourilyan, 3806, nsw, 19310826, 33, 04 32337161, 6227152, 1
+rec-153-org,   macy, campbell, 5, lampard circuit, brindabella specialist centre, forrestfield, 2430, vic, 19630420, 24, 07 96210707, 1544476, 5
+rec-421-org,   lara, weaver, 12, tipping place, , new town, 3139, nsw, 19300114, 23, 04 65053731, 6479891, 5
+rec-96-org,   erin, djurdjevic, 131, burkitt street, , , 0870, vic, 19030405, 9, 02 64978452, 2931217, 8
+rec-22-dup-0, talissa, ros, 53, hugh mckay crescent, , jan juc, 3970, nsw, 19803005, , 04 56592813, 4885277, 2
+rec-206-org,   abii, dixon, 2, delaney court, , ballarat, 4570, nsw, 19310124, 33, 02 15249629, 1172795, 5
+rec-428-org,   benjamin, attle, 97, dooring street, glenoak, artarmon, 3177, , 19050403, 26, 03 96930319, 8432781, 3
+rec-272-dup-0, max, berryman, 155, drake brockman drive, , st andsfews, 3182, vic, 19980202, , 07 27441449, 6268917, 0
+rec-361-dup-0, elizabeth, eilander, 5, oldham court, , ashfield, 6080, vic, 19330215, 30, 04 91923897, 2964014, 7
+rec-352-dup-0, isabella, gasifin, 36, sanford place, palm lake resort, newborough, 3912, nsw, 19390294, 29, 08 19349339, 9895565, 4
+rec-249-org,   oliver, allanby, 96, phillip avenue, , stratton, 2298, qld, 19180725, 34, 02 62197471, 3165548, 3
+rec-196-dup-0, sophe, slape, 29, geebun place, , terry hills, 6095, , 19930810, 29, 08 96612116, 7984229, 1
+rec-107-org,   julia, fey, 150, hawken street, locn 1901, barcaldine, 3448, vic, 19750812, 28, 02 40079073, 1234460, 6
+rec-56-org,   andrea, meale, 3, slessor crescent, , boyne island, 2620, nsw, 19460318, 19, 02 32422192, 1180912, 4
+rec-467-org,   tyrone, renfrey, 8, kosciusko avenue, , coleambally, 6155, sa, 19530604, , 07 17533137, 6840351, 1
+rec-267-dup-0, michael, noble, 90, leahy close, , ram, 0835, qld, 19250815, , 04 25006935, 7443679, 2
+rec-109-dup-0, harrison, tao, 19, bindel stdtreet, , stratton, 3073, , 19250828, 28, 02 76938875, 9792360, 7
+rec-77-dup-0, gabriel, campgejll, 31, crichton crescent, , thornlands, 2602, nsw, 19811131, 21, 04 05707950, 1526452, 6
+rec-16-dup-0, zacy, bishz, 5, hansen circuit, brightwater villas, peakhurst, 4810, nss, 19300321, 34, 04 58053577, 3761754, 1
+rec-51-dup-0, bailey, krecinic, 524, dugdale street, , mackayrnrth, 2753, nsw, 19540909, , , 5152151, 7
+rec-228-org,   sebastian, crews, 21, carnall close, , lalor, 2262, qld, 19630718, , 08 10748233, 1813534, 7
+rec-106-dup-0, cameron, bishop, 3387, strickland frescent, , , 3350, qld, 19661025, 22, 04 94858407, 4433717, 3
+rec-279-org,   shakirah, wilkins, 48, aroona court, , bethania, 3125, vic, 19181114, , 08 59067433, 1574587, 6
+rec-450-dup-0, bella, whkte, 779, folingsby street, , cann river, 2144, , 19180122, 23, 08 29411169, 9152260, 4
+rec-444-org,   brodie, large, 28, keverstone circuit, , clarkson, 4006, qld, , 30, 07 90960524, 3562376, 1
+rec-129-org,   georgia, dallas, 90, longstaff street, the lagoon, sefton park, 3052, sa, 19070115, 11, , 6883429, 2
+rec-499-org,   alessandra, petersen, 29, william webb drive, , , 2759, sa, 19641122, 27, 02 48745998, 5411977, 6
+rec-189-dup-0, jacinta, ao, 19, belah street, , elizabetrc igrove, 3224, vic, 19921220, 26, 07 20656944, 6066578, 9
+rec-108-org,   oscar, inge, 2, drake brockman drive, , lismore, 4680, nt, 19310429, 35, 02 42709563, 2066914, 8
+rec-414-dup-0, harrizon, kempt, 2205, kosciusko avenue, , bexley north, 6064, nsw, 19541006, , 02 96931205, 9892957, 5
+rec-214-org,   brydon, wheatley, 732, figg place, westleigh, greenwith, 6028, , 19780718, 23, 04 24358955, 7212790, 0
+rec-234-org,   ruby, ryan, 100, nairn place, airlie, mooloolaba, 2195, vic, 19200708, , , 7031892, 5
+rec-72-dup-0, ella, willomct, 18, robert lewis court, antelle park, oakldigh, 4455, qld, 19272080, 31, 08 51227241, 4858406, 2
+rec-477-org,   evan, bloomfield, 20, logue place, glenmore cottage, view bank, 4815, qld, 19210122, 32, 04 70928689, 6146853, 2
+rec-28-dup-0, lachkan, shadbolt, 7, cherry place, , dawesville, 2245, vichu, 19480602, , 02 46464318, 9178692, 7
+rec-124-org,   emiily, la porte, 50, storey street, , golden grove, 3377, qld, , 35, 07 22128249, 2743074, 4
+rec-197-org,   liam, purtell, 3, marchant circuit, rosetta village, monto, 4806, vic, 19891016, , 08 49105506, 4284580, 2
+rec-458-org,   toby, matthews, 78, fellows street, , carrara, 2256, nsw, 19070305, 20, 07 80750439, 7552720, 3
+rec-147-dup-0, joshua, meaney, 42, bandt place, villa 18, box hillilouth, 2259, nsw, 19960726, 24, 07 05287390, 9029138, 7
+rec-148-dup-0, kiria, clarnke, 80, bingley kcrescent, , cleveoand, 2138, wa, , , 03 32632552, 8721840, 4
+rec-283-org,   , mcgarrigan, 735, herbert crescent, killarney, alice springs, 2485, nsw, 19371222, 38, 07 61280055, 3961268, 6
+rec-416-dup-0, kadyegn, weidenhcer, 28, kibby place, hopefield, colac, 6168, wa, 19660321, 29, 03 63168662, 9936627, 6
+rec-231-dup-0, keelvy, kammermann, 29, la perouse street, , namboxur, 4350, vic, , , 03 81817910, 2376136, 6
+rec-365-dup-0, alexandra, braithwaite, 22, johnstone circuit, , glendale, 4700, vic, 19902013, 12, 03 03833042, 5762372, 2
+rec-253-org,   thomas, saccardo, 165, edwards street, sherwood, kurri kurri, 2176, vic, 19870111, 30, , 6138405, 0
+rec-463-dup-0, evan, whitdeay, 15, , , asquith, 6169, , 19830306, 36, 07 18842977, 4218038, 9
+rec-277-org,   courtney, bottroff, 10, hann street, , williamstown, 3564, vic, 19870916, 24, 03 61261397, 2472377, 4
+rec-199-org,   emiily, furness, 409, totterdell street, , wamuran, 2480, nsw, 19900306, , 08 75623248, 7951110, 7
+rec-171-org,   grace, holme, 54, kambalda crescent, , frankston, 4670, nsw, 19791206, 29, 08 67385973, 2937096, 3
+rec-291-org,   alexandra, mccarthy, , , , banjup, 2536, vic, 19731229, 27, 08 30802280, 9914511, 6
+rec-170-org,   keahley, spagnoletti, , elsey street, , deniliquin, 2323, nsw, 19120406, 34, 03 14461404, 1145330, 7
+rec-118-org,   grace, baugh, 175, juwin street, wombat gully, arundel, 5021, nsw, , 8, 08 55026399, 2475088, 8
+rec-340-dup-0, nathan, kerley, 27, maclaurin crxescent, , kelmscot, 6017, , 19010821, 33, 08 97769574, 9493080, 0
+rec-89-org,   mackenzie, blunden, 41, elkington street, hilltop hostel rowethorpe, ballarat, 4817, sa, 19451120, , 02 75158034, 8188564, 0
+rec-96-dup-0, djurdjevic, erin, 131, burkitt treet, , , 0807, vic, 19030405, 9, 02 64978452, 2931217, 8
+rec-161-org,   chloe, golder, 3, , kimbe, sunshine, 2710, nsw, 19190111, 12, 07 07104036, 9889405, 4
+rec-447-dup-0, wil, , 21, lutana street, marri vale, thornleigh, 3692, vic, 19610611, , 08 56878977, 6047552, 7
+rec-268-dup-0, ella, wilkids, 24, barffzlpace, , yungaburra, 4101, qld, 19130301, 22, 07 52564530, 9179432, 5
+rec-177-org,   riley, wiseman, 38, burkitt street, , oatlands, 3500, qld, 19840306, 37, , 4192876, 6
+rec-135-dup-0, micaela, scucqs, 5, heard street, , farrer, 2210, nsw, 19321015, 32, 03 37792749, 3793496, 6
+rec-290-dup-0, jayde, stephenson, 2, pryor place, school house, ballarat, 3165, sa, 19650706, , 02 99083228, 7555588, 8
+rec-372-org,   joshua, dreckow, 112, , treetops, sunshine, 2300, , 19781107, 31, 08 47708807, 2730526, 3
+rec-466-dup-0, , przest, 30, brereton street, woodleigh, charletown, 2026, qld, 19570209, 9, 04 41385542, 8216412, 9
+rec-456-dup-0, toby, monshizzda, 801, murranji sfreet, , burwood, 7250, , 19861216, 9, 04 67747045, 8599201, 1
+rec-301-org,   gabrielle, gillis, 14, rossarden street, warringa, modbury heights, 2167, vic, 19580609, 31, 08 31935460, 9801843, 9
+rec-127-dup-0, michael, rea, 12, frencham place, bondo, broadmeadows, 6027, nsq, 19560905, 32, 07 53932432, 9854974, 4
+rec-194-org,   dylan, neeb, 49, warrego circuit, , woodville north, 6056, nsw, 19530422, 23, 03 24918971, 3495790, 5
+rec-218-dup-0, david, dinow, 1069, , adams cttage, windsor, 2196, sa, 19520528, 31, 03 24963749, 4071811, 6
+rec-373-dup-0, nathan, magiad, 333, adair street, , forest hill, 3505, nsw, 19850108, 35, 02 78529274, 4463399, 4
+rec-63-org,   finlay, green, 7, affleck place, henry kendall hostel, dunkeld, , qld, 19150925, 31, 08 96632867, 8148683, 5
+rec-489-org,   teegan, newberry, 26, boswell crescent, yarrandoo, surfers paradise, 3166, qld, 19650331, 21, 02 06097130, 6997566, 1
+rec-465-org,   sophie, hope, , chipperfield circuit, , noble park north, 2323, qld, 19970315, 32, 07 08746638, 7099860, 0
+rec-123-org,   thomas, gibb, 3, karawatha place, , beverly hills, 2250, vic, 19000330, 29, 04 32486660, 1598887, 8
+rec-110-dup-0, armineto, hudsbn, 8, cowper street, , mullewa, 4006, , 19250313, , 08 22466785, 5828875, 4
+rec-391-dup-0, sophi, clarke, 925, macquoid place, , , 4118, nsw, , 29, 08 69873853, 3943300, 1
+rec-381-dup-0, grayson, artiis, 29, len waters street, , balcatta, 2206, , 19780129, 30, 03 77634675, 3229270, 3
+rec-324-org,   adam, tiller, 20, atherton street, , sunshine, 2583, nsw, 19930528, , 07 29798962, 8512028, 5
+rec-421-dup-0, lara, weaver, 12, tipping place, , new town, 3914, nsa, 19300114, 23, 04 65053731, 6479891, 5
+rec-432-org,   diamond, morrison, 68, , , rye, 2480, qld, 19310207, 42, 07 17638175, 4989546, 0
+rec-420-dup-0, nixhla, shephdrd, 12, gleadow street, rowethorpe, drysdale, 2026, nsw, 19810419, 33, 07 02419359, 7231084, 6
+rec-151-dup-0, talia, hentze, 53, harris street, , kirwan, 2573, vic, 19101802, 25, 04 89434096, 9044495, 3
+rec-436-dup-0, jackc, clarke, 8, bickleyrclose, kooyng, emmaville, 2850, nsw, 19810427, 22, 08 96517278, 4239568, 6
+rec-146-dup-0, campbell, green, 34, dixson fcircuit, , warilla, 2220, nsw, 19370306, 24, 03 58595810, 3056818, 9
+rec-195-dup-0, elijah, landbo, 565, burrinjuck crescent, , bunypi, 3101, sa, 19001191, , 04 61278945, 9968115, 3
+rec-477-dup-0, ewan, bloomiaeld, , logue place, glenmore cottage, view bank, 4815, , 19210122, 32, 04 70928689, 6146853, 2
+rec-313-org,   seth, bowerman, 3, freehill street, , corrimal, 3135, wa, 19441113, 30, 03 84363315, 8286110, 0
+rec-181-dup-0, kayla, , 56, lambrigg street, , wy yung, 2457, qld, 19670322, , 07 51414441, 9292072, 0
+rec-191-org,   emiily, white, 19, springvale drive, naringal orchard, robina, 3931, , 19810427, 31, 03 49737027, 6204754, 4
+rec-413-dup-0, hayley, nguyen, , conley drive, , scarboough, , nsw, 19203910, 36, 04 82286822, 4552030, 2
+rec-20-dup-0, erin, colquhoun, 36, dethridgwystreet, trumalon, wanneroo, 3091, nsw, 19800207, 30, 08 76564498, 3792824, 6
+rec-118-dup-0, graaie, baugh, 175, juwin street, wombat g rully, arundel, 5021, nsw, , 8, 08 55027399, 2475088, 8
+rec-314-org,   callum, mayer, 57, , , braidwood, 3639, nsw, 19810702, , 02 71953908, 8345746, 5
+rec-430-dup-0, bailey, tu, 13, greeniptreet, , braidisood, 3084, sa, , 27, 07 10285972, 5448534, 6
+rec-38-dup-0, jake, priest, 1, climpsorn olace, , riverwood, 3186, nsw, , 31, 02 30783501, 3384818, 3
+rec-248-dup-0, benjamin, belperio, 2, hilder street, , toowong, 3156, qld, 19651030, 25, 04 99806237, 4388186, 3
+rec-233-dup-0, quinn, green, 3, mcmillan crescent, the spur, surrey hills, 3032, nspw, 19060527, , 04 20039258, 1864592, 9
+rec-114-org,   sylvie, webb, 170, sparkes close, torr dean, belgian gardens, 2171, sa, 19531201, 26, 02 34221632, 1634094, 9
+rec-61-dup-0, nikita, tschirflig, 4, dobbie place, , surfers paradise, 2260, , 19870305, 9, 02 84865945, 8758707, 6
+rec-432-dup-0, diamond, morrison, 73, , , rye, 2480, qld, 19310307, 40, 07 17638175, 4989546, 0
+rec-8-org,   noah, luchetti, 81, hanlon crescent, , bayswater, 2020, nsw, , 35, , 9631891, 7
+rec-266-dup-0, juliana, mason, 219, dore doyrt, st francis village, jindalee, 3197, , 19880103, 12, 03 36898162, 4681073, 3
+rec-66-org,   zane, froud, 22, gaby place, , windsor, 2567, qld, 19820503, 32, 07 49209263, 9863154, 8
+rec-26-org,   madison, green, 76, wongoola close, , alice springs, 6239, , 19790721, 28, 07 15023450, 1105379, 2
+rec-364-org,   michael, westermann, 35, hodgson crescent, , dapto, 4174, qld, 19300310, , 08 93996945, 5564556, 1
+rec-11-dup-0, jack, coulton, 20, hambidge crescent, , punchbpwl, 2165, qld, , , 07 24728464, 7417440, 4
+rec-43-org,   connor, soden, 29, tanderra crescent, ferndale, kellyville, 6030, qld, 19661030, 20, 02 54205999, 8216885, 3
+rec-117-dup-0, keziah, corre, 3, cockle street, nanjomara, south brisbane, 4650, , 19530801, 22, 07 97579867, 5323357, 2
+rec-474-org,   sachin, white, 49, yiman street, , terrigal, 2445, vic, 19221029, 21, 03 85597971, 6150112, 9
+rec-333-dup-0, ellbr, dreckow, 16, freda gibson circuit, vambi b ack, toowoomba, 3216, , 19140210, , 04 84755761, 4534582, 0
+rec-119-dup-0, aidyn, grobzee, 1, , milpara, paralowie, 3123, qld, 19503605, 10, 04 29883218, 1185564, 7
+rec-347-org,   alexandra, mccarthy, 517, city walk, , seacombe heights, 3109, qld, 19290430, 33, 03 80414970, 3406893, 7
+rec-141-org,   tahni, markowski, 68, pinkerton circuit, , halifax, 2259, nsw, 19510106, 24, 03 59574155, 7500222, 4
+rec-348-org,   felicity, rocca, 66, mansfield place, toombali, ringwood, 3630, vic, 19091005, 39, 07 21357084, 5436985, 7
+rec-317-org,   jake, mcgregor, 116, , , seven hills, 3187, qld, 19300327, 26, 08 81371476, 3797221, 2
+rec-172-org,   william, wyllie, 164, dorrit black crescent, bulga wine estates, mckinnon, 6430, nsw, 19950706, 29, 03 96907057, 7809456, 1
+rec-470-dup-0, brody, nonas, 456, oliver street, glen-vale, mourilyan, 3806, nsw, 19310826, 20, 04 32337161, 6227142, 1
+rec-21-org,   alia, stephenson, 128, irwin street, , the rock, 6051, vic, 19140718, 27, 04 99932358, 1497860, 8
+rec-346-org,   rebekah, hemlof, 9, crozier circuit, , crescent head, 2073, qld, 19990531, 42, 07 68911246, 6549157, 6
+rec-362-org,   evan, harbottle, 185, faucett street, , bellata, 5600, vic, 19660422, , 04 91375499, 6936158, 0
+rec-67-dup-0, alana, willin, 5, , kingway tourist park, booker bay, 3976, nsw, 19746136, , 07 31786507, 3005536, 2
+rec-327-org,   holly, tomney, , callaghan street, , hillside, 3804, qld, 19650528, , 02 90077930, 8775777, 2
+rec-171-dup-0, gracie, holme, 53, kambalda crescent, , frankston, 4670, nsw, 19791206, 29, 08 67385973, 2937096, 3
+rec-40-org,   harry, kireev, 43, axon street, , greensborough, 2325, nsw, 19590506, 26, 07 50967734, 2091774, 0
+rec-43-dup-0, connor, sodenl, 29, tanderra crescent, fernale, kellyville, 6003, qld, 19661030, 20, 02 54205999, 8216985, 3
+rec-413-org,   hayley, nguyen, 8, conley drive, , scarborough, 3185, nsw, 19290310, 36, 04 82286822, 4552030, 2
+rec-153-dup-0, campbell, maj, 5, lampard circuit, brindabella specialist centre, forrestfield, 2430, vic, 19630420, 24, 07 96210707, 1544476, 5
+rec-383-org,   chloe, sherriff, 487, henry street, , mount pleasant, 2161, vic, 19470102, 26, 03 51712365, 3869840, 7
+rec-167-dup-0, abbey, doody, 27, batchelor street, , leichjadyt, 4342, wa, 19380131, , 03 40074009, 7488361, 8
+rec-493-org,   alison, morrison, 2, denovan circuit, , patterson lakes, 3153, , 19931124, 34, 08 40464583, 4199497, 7
+rec-299-dup-0, emiiky, grossman, 52, dobie place, the willows, enoggera, 3182, tas, 19640901, 28, 08 10809759, 9131103, 2
+rec-406-org,   jessica, favero, 152, charteris crescent, wirruna, coal point, 2226, nsw, 19491025, , 04 02675715, 7996794, 6
+rec-36-dup-0, lily, rawlirgs, 35, schlich street, tathra, granivle, 2508, , 19780325, 31, 03 26844938, 5269784, 3
+rec-361-org,   elizabeth, eilander, 1, oldham court, , ashfield, 6008, vic, 19330215, 30, 04 91923897, 2964014, 7
+rec-229-dup-0, abby, siwak, 150, mackenzie oztreet, springdale, riverstone, 2371, , 19270214, , 07 10250287, 2756633, 8
+rec-399-org,   konstantinos, reid, 8, marsden street, , werrington, 2233, nsw, 19901124, , 02 98285143, 4475537, 1
+rec-230-org,   bryce, cure, 13, magrath crescent, , nambour, 3130, qld, 19630605, , 08 03398455, 5696060, 3
+rec-146-org,   campbell, green, 11, dixson circuit, , warilla, 2220, nsw, 19370306, 24, 03 58595810, 3056818, 9
+rec-287-dup-0, zali, reid, 295, kinleysidrcrescent, , bull creek, 4703, nsw, 19510703, 22, 07 35034708, 1321725, 1
+rec-159-dup-0, katelin, bishop, 16, alinga sceet, , toowoomba, 4455, vic, 19001102, 20, 03 69315359, 9041309, 2
+rec-41-dup-0, thonas, fitzpatrick, 26, placemonso, first avenue, yarravolle, 3028, nt, 19400131, 39, 07 56115013, 2350421, 1
+rec-185-org,   elki, mason, 14, robson street, welcome swallow angus illalangi rmb 1800, cromer, 3141, nsw, 19490409, 25, , 8213752, 5
+rec-158-dup-0, wilson, earwaker, 42, coppins crossng road, , ulladulka, 2040, nsw, 19240219, 41, , 6237218, 9
+rec-328-org,   matthew, czajka, 25, castleton crescent, , kings park, 2046, act, , 35, 02 94936922, 5963803, 2
+rec-462-dup-0, thomas, iliffe, , nungara street, , coffs harbour, , qld, 19800627, 44, 08 56424404, 3821242, 3
+rec-374-dup-0, samuel, colquhoun, 17, hurley street, , tighe holl, 2200, qld, 19080814, , 03 14120730, 4675130, 2
+rec-105-org,   gabriella, reid, 435, christmas street, , newmarket, 4575, nsw, 19601127, , 03 10419915, 9331696, 3
+rec-129-dup-0, georgie, dallas, 90, , the lagoon, seftonupark, 3052, sa, 19070115, 11, , 6883429, 2
+rec-455-org,   louis, purdon, 9, mcritchie circuit, , padstow, 5211, vic, 19811115, 19, 08 82659795, 1541199, 5
+rec-334-dup-0, paige, lansddol, , wylie street, , brisbane, 6084, , 19440630, 92, 03 03529057, 1606409, 7
+rec-438-org,   ella, compagne, , brinsmead street, trilogy, concord west, 2340, tas, 19030306, 35, , 2621661, 7
+rec-225-org,   emiily, selth, 4, florey drive, , swan hill, 6004, nsw, 19931025, 36, 07 93500326, 8755335, 0
+rec-217-org,   livia, liolios, 8, tarago place, , old guildford, 3156, tas, 19820425, , 03 93152153, 3841395, 0
+rec-70-dup-0, oliver, henderson-wilson, 38, brodzkyjplace, st francis room, wangaratta, 5019, qld, , 28, 08 78423957, 1914957, 8
+rec-164-org,   lily, ryan, 33, moss street, , whalan, 3912, wa, 19750719, , 02 57223980, 8946743, 0
+rec-347-dup-0, alexandra, mccrathy, 517, city wgplk, , seacombe heights, 3109, qld, 19290430, 33, 03 80464970, 3406993, 7
+rec-388-dup-0, jason, webb, 8, derry sdteet, , toowoonba, 5722, nsw, 19190203, 29, 02 61561933, 7901778, 2
+rec-257-org,   oliver, campbell, 6, cumpston place, , wahroonga, 2756, sa, 19930210, 21, 07 02562561, 7701151, 2
+rec-188-org,   , afford, 3, ashby circuit, , annandale, 2615, wa, 19960225, 30, 04 89902317, 2257229, 6
+rec-92-dup-0, kathwrine, schiansky, 16, mighell place, kyalla, yatteyattah, 3030, vic, 19533024, , 03 00803441, 2006952, 1
+rec-492-dup-0, oakleigh, labufn, 5, warramoo crescent, , mundingburra, 6050, qld, 19210321, 37, 08 70933155, 1955483, 5
+rec-164-dup-0, lil, ry, 33, moss street, , whallan, 3912, wa, 19750719, , 02 57223980, 8946743, 0
+rec-149-dup-0, patrick, , 21, cavenaghbplace, , figtree, 5725, vic, 19821905, 29, 07 45410001, 5702449, 8
+rec-194-dup-0, dylan, neeb, 47, warrego ckrcuit, , woodville north, 6056, nsw, 19530222, 23, 03 24918971, 3495790, 5
+rec-467-dup-0, tyrone, renfrey, 82, kosciusko avenue, , coleamllly, 6155, sa, 19530604, , 07 17533137, 6840351, 1
+rec-480-org,   breana, sarossy, 27, stockdale street, , currambine, 2560, vic, 19300325, 32, 03 58176025, 6328317, 4
+rec-418-org,   reuben, ryan, 12, gledden street, canberra centre, broken hill, 3977, vic, 19380312, 31, , 5900481, 8
+rec-147-org,   joshua, meaney, 43, bandt place, villa 18, box hill south, 2259, nsw, 19960726, 24, 07 05287390, 9029138, 7
+rec-377-org,   harrison, trepka, 13, barnett close, laurel vale poll hereford stud, springvale south, 2071, nsw, 19610417, , 08 66928468, 7939603, 0
+rec-235-dup-0, luke, mccraflen, 70, scottsdale street, rich meadows, bilpin, 3922, vic, 19130116, 9, 04 36350343, 5510830, 9
+rec-33-dup-0, rupert, thorpe, 60, majura akenue, middle rocm park, surry hills, , nsw, 19120215, 21, 07 96908286, 2881827, 9
+rec-256-dup-0, joel, coleman, 6, bingley crescent, , harbprd, 2036, nsw, 19630475, 34, 04 36801252, 6494010, 7
+rec-47-dup-0, lara, colemn, 3, john russell circuit, , sunsihne, 4064, vic, , 33, 03 66554729, 4557919, 8
+rec-412-org,   joel, khodan, 3, chauvel street, keith payne hstl, wubin, 4814, vic, , 34, 03 69998424, 8285176, 4
+rec-52-org,   joel, singleton, 8, macdonnell street, silverside, noble park, 4817, nsw, 19840714, 9, 02 78043741, 3924654, 9
+rec-289-org,   taliah, mason, 5, dookie street, , tyabb, 5203, vic, 19260409, , 03 13115363, 4671616, 4
+rec-9-org,   , white, 6, antill street, , fairlight, 2148, , 19881119, , 07 00475972, 2115315, 0
+rec-56-dup-0, andrea, meald, 3, slessor crescent, , boynei sland, 2620, nsw, , 19, 02 32422192, 1180912, 4
+rec-29-org,   isabella, egglestone, 1, moorhouse street, , kardinya, 3150, nsw, 19010828, 30, 08 25589744, 5626805, 4
+rec-42-dup-0, bodhi, blackwell, 147, narrabunadblane, upper green farm, mackay north, 2350, nsw, , 11, 04 22045880, 7998446, 3
+rec-193-org,   oliver, nguyen, 15, booth crescent, garden settlement, melville, 3612, qld, 19431122, 32, 04 57834727, 6448454, 7
+rec-131-dup-0, stevrf, clarke, 43, kennedy street, , morwell, 2340, vic, 19561047, 25, 02 75777400, 4504408, 5
+rec-165-dup-0, taylor, maynard, 52, darmodynxreet, , toogoom, 3629, vic, 19870020, 40, 07 08747898, 6480256, 5
+rec-84-org,   liam, averats, 99, allambee street, , cohuna, 3137, wa, 19380807, 30, 07 92831273, 4174546, 5
+rec-369-org,   georgia, white, 112, ballumbir street, , elwood, 6522, vic, 19340521, 27, 07 96038653, 9353069, 9
+rec-61-org,   nikita, tschirpig, 4, dobbie place, , surfers paradise, 2260, , 19870305, 9, 04 01044900, 8758707, 6
+rec-424-org,   gracie, allard, 44, namatjira drive, , ringwood east, 5351, qld, 19631010, 30, 02 14371221, 2528232, 5
+rec-435-org,   cambell, gaskin, 6, ambalindum street, , greenacre, 5008, vic, 19810326, 37, 03 46608743, 8218833, 5
+rec-380-org,   charlotte, robson, 18, burrendong street, , clayton, 3126, nsw, 19810505, 32, 08 08120108, 2829311, 6
+rec-312-dup-0, sophai, grierpson, 39, richards street, , colo vxle, 2000, sa, 19480626, 38, 04 10301390, 8352498, 8
+rec-435-dup-0, cambell, gaskin, 6, ambalindum street, henry kemball village, greenacre, 5008, vics, 19810326, 73, 03 46608743, 8218833, 5
+rec-426-dup-0, ebony, thorpe, 16, bundock place, mungo park, biggera waters, 2066, nsw, 19447824, , 02 09258471, 5489134, 4
+rec-167-org,   abbey, doody, 3, batchelor street, craiglea, leichhardt, 4342, wa, 19380131, , 03 40074009, 7488361, 8
+rec-163-org,   alicia, shepherd, 5, mair place, , north sydney, , wa, 19780930, 31, 04 65877093, 5081898, 2
+rec-120-org,   amy, pascoe, 48, ironside street, , port lincoln, 4178, qld, 19921111, 29, 02 66449742, 9884559, 1
+rec-409-dup-0, hayley, brusye, 11, clive steele avenue, , , 4306, nsw, 19480390, 30, 02 16383485, 6001428, 4
+rec-425-dup-0, kyle, blackwell, 43, archer street, , south west rocks, 2230, sa, , , 03 58666972, 6747615, 6
+rec-69-dup-0, isabella, kerkhwm, 28, wagstaff place, , knoxfield, 3137, vic, 19190517, 36, 02 09346081, 5094476, 6
+rec-166-dup-0, travis, grpfpn, 50, totterdell street, wilgee, caulfield, 2580, wa, 19090622, 9, 02 18537281, 5520960, 6
+rec-125-org,   , feneley, 7, brown street, kay's place, rowville, 3079, nsw, 19341011, , 04 35617084, 5197382, 5
+rec-37-org,   victoria, parr, 79, balfour crescent, , blackheath, 3148, , 19701208, 22, 04 63724533, 1062757, 7
+rec-302-org,   william, garrood, 12, vasey crescent, , ingleburn, 3550, nsw, 19580227, 30, 08 30824022, 6470253, 4
+rec-493-dup-0, alison, morrison, 2, denovan crcuit, , patterson lakes, 3153, , 19391113, 34, 08 40494583, 4199497, 7
+rec-494-dup-0, steben, wilkisn, 32, rene stfeet, townview, leppxington, 6008, vc, 19320415, 29, 02 44065281, 2046621, 3
+rec-295-org,   isabella, , 8, bogan place, oliwen, brookdale, , wa, 19580312, , 04 25240868, 6317469, 2
+rec-187-org,   ella, gehling, 11, shepherd street, matakana, pooraka, 4865, nsw, 19240604, 22, 02 17321610, 8368586, 5
+rec-483-dup-0, mitchell, morrsuon, 3, cumpston place, , rostrevor, 2909, , 19140316, 38, 08 80729963, 6700259, 0
+rec-46-dup-0, revie, gemalea, 15, hawkeswothplace, kurrajong, ivanhoe, 3142, nsw, 19630501, 9, 03 80770627, 7598845, 2
+rec-359-dup-0, lucu, woodlock, 28, baracchi crescent, , corio, 4740, qld, 19760620, 12, 03 31416711, 5555701, 6
+rec-328-dup-0, matthew, czajka, , castletonccreacent, , kings park, 2046, act, , 35, 02 94936922, 5963830, 2
+rec-396-org,   larissa, gully, 32, albermarle place, locn 8, highton, 4017, nsw, 19260608, 30, 02 53217861, 2959862, 2
+rec-431-org,   emma, hislop, 18, carlile street, donore, yorkeys knob, 2768, nsw, 19370908, 27, 03 46424749, 2052608, 2
+rec-401-org,   alexander, white, 7, enright crescent, coryndirk, salisbury heights, 4508, qld, 19890510, 32, 04 69321648, 4005718, 9
+rec-218-org,   david, dinow, 1064, morrison street, blackbutwood, windsor, 2196, sa, 19520528, 31, 03 24963749, 4071811, 6
+rec-107-dup-0, julia, fey, 150, hawken street, , barcaldine, 3448, vic, 19750812, 28, 02 40079073, 1234460, 6
+rec-144-org,   emiily, joannou, 63, katherine avenue, little mount home park, banyo, 7320, vic, 19190112, 24, 02 47205096, 7814097, 8
+rec-340-org,   nathan, kerley, 15, maclaurin crescent, , kelmscott, 6017, , 19010821, 33, 08 97769574, 9493080, 0
+rec-46-org,   gemaley, revie, 15, hawkesworth place, kurrajong, ivanhoe, 3142, nsw, 19630501, 9, 03 80770627, 7598845, 2
+rec-452-dup-0, kayden, zierholz, 49, ashcroftcrescent, , chisholm, 6027, vic, 19809818, 33, 07 10059892, 8707183, 3
+rec-90-dup-0, benjamin, hazeoo, 4, burkitt street, black hills, new town, 6010, qld, 19954002, 10, 07 93644113, 8754447, 2
+rec-199-dup-0, emiily, furnesk, 408, totterdell street, falcony horst, wamuran, 2480, nsw, 19900306, , 08 75623248, 7951110, 7
+rec-134-dup-0, taliah, manson, 8910, wrenfordsley place, , dullwich hill, 2231, , 19950615, , 03 13621968, 5437786, 0
+rec-423-dup-0, william, belkamy, 34, nannin dplace, , cremorne, 3188, , , 30, 07 33956616, 5121948, 2
+rec-362-dup-0, evan, harbottle, 185, faucett yreet, , belrta, 5600, vic, 19660422, , 04 91375499, 6936158, 0
+rec-322-dup-0, kyle, han, 29, hawkesbury crescent, , lansdowne, 2035, wb, 19930118, , 03 83810940, 4985876, 9
+rec-391-org,   sophie, clarke, 925, macquoid place, , elwood, 4118, nsw, , 29, 08 69873853, 5014621, 1
+rec-87-dup-0, nacoya, pantazopoulos, 40619, foskett street, , murdovh, 2097, vic, 19601621, 28, 07 20914004, 3560627, 1
+rec-393-org,   angus, hingston, 13, kirwan circuit, arcadia, flora hill, 2261, nsw, 19171219, 24, , 1286625, 0
+rec-243-dup-0, liam, noble, 24, condell street, greenwood, halbury, 7292, qld, 19101201, , 04 91661830, 4625565, 6
+rec-150-org,   jared, trzcinski, 7, o'halloran circuit, stoneycroft, moree, 2008, vic, 19600529, 27, 08 99530526, 4346717, 1
+rec-292-dup-0, cameron, cofeh, 5, julius street, , shell cove, 6615, vi, 19080911, 9, 04 93468190, 1141915, 5
+rec-233-org,   quinn, green, 3, mcmillan crescent, the spur, surry hills, 3023, nsw, 19060527, 32, 04 20039258, 1864529, 9
+rec-142-dup-0, hudsnj, kinter, 5, street ihelly, nanto, elanora heights, 3278, sa, 19130609, 22, 08 09621472, 6087454, 5
+rec-6-org,   olivia, berenyi, 69, wittenoom crescent, , eaton, 4810, wa, 19730404, 24, 04 62318382, 5845537, 3
+rec-407-dup-0, , lymberis, 1, chippindall circuit, beachfront caravan park, surat, 6153, , 19840717, 33, 03 89486036, 1136293, 1
+rec-323-org,   lachlan, gogovcev, 40, stuart street, , ultima, 3147, , 19861008, 6, 02 18862395, 2172938, 2
+rec-176-dup-0, olliw, dixon, 10, flinders way, rosedale, belconnen, 2623, wa, 19990325, , , 6972455, 0
+rec-122-dup-0, alibsa, hasselvl, 15, kenyon circuit, , unankxrra, 2195, act, 19370039, 25, 04 89781932, 3487813, 4
+rec-7-org,   mitchell, green, 9, eucumbene drive, , elsternwick, 4305, nsw, 19061212, , 04 99451801, 7593862, 8
+rec-202-org,   alexandra, , 49, croton street, , cronulla, 4503, tas, 19761123, 28, 08 14311326, 2727016, 8
+rec-462-org,   thomas, iliffe, 5, nungara street, inglebar station, coffs harbour, 2261, qld, 19800627, 44, 08 56424404, 3821242, 3
+rec-450-org,   bella, white, 76, folingsby street, , cann river, 2144, , 19180522, 23, 08 29411169, 9152260, 4
+rec-343-dup-0, harry, speight, 8, duffy tsreet, river mews, yamba, 5069, vic, 19143416, 21, 08 96005861, 3882957, 7
+rec-74-dup-0, paige, pendle, 217, wilshire street, , muc hwa, 5540, vic, 19900612, 26, , 5447307, 3
+rec-499-dup-0, alessandra, peferabn, 24, william webb drive, , , 2759, sa, 19641122, 23, 02 48745998, 5411977, 6
+rec-416-org,   kayden, weidenhofer, 28, kibby place, , colac, 6168, wa, 19660321, 29, 03 63168662, 9936627, 6
+rec-93-org,   william, lovelock, 17, mort street, , sefton, 2371, wa, 19080412, , 02 68641906, 7976150, 7
+rec-495-org,   , burman, , richter close, gillin park, bondi junction, 3352, nsw, 19931025, 19, 04 66036994, 2747161, 9
+rec-49-dup-0, lachlan, santi, 16, , kurrajong, cooloongup, 6023, vic, 19850909, 38, 07 37249656, 2231480, 7
+rec-354-org,   samuel, geraghty, 15, grimshaw street, tartan park, erindale, 2203, nsw, 19860819, , 03 11785571, 6445519, 2
+rec-445-org,   jason, clarke, 69, rowe place, , bacchus marsh, 2529, qld, 19721101, 21, 08 23844873, 9440240, 7
+rec-272-org,   max, berryman, 155, drake brockman drive, , st andrews, 3182, vic, 19980202, , 07 27444449, 6268917, 0
+rec-240-dup-0, connof, toohll, 15, hyndes crescent, bushland retirement village, old bar, 5185, nse, 19181101, 20, 03 46703431, 7258299, 8
+rec-285-dup-0, charlie, , 122, settlemn atreet, , clapham, 4118, nsw, , 34, 07 32636914, 3811082, 6
+rec-344-dup-0, brock, zaharogiannis, 11, moogerah street, garrong, goldengrove, 5113, nsw, 19650621, , 03 02588244, 5765358, 3
+rec-345-dup-0, madeline, spong, 96, condaminw treet, glenfine tation, lake illawarra, 6125, nsw, 19200350, 30, 03 67439176, 9961101, 2
+rec-310-org,   madison, moine, 16, were street, , tarragindi, 4128, nsw, 19840921, 34, 03 03275261, 8729832, 1
+rec-458-dup-0, toby, mattwws, 78, fellows street, , carrara, 2256, nsw, , , 07 80750439, 7552720, 3
+rec-404-org,   olivia, lavender, 10, gledden street, morago, cranbourne, 3199, vic, 19590314, 43, 04 29896413, 5832051, 8
+rec-1-org,   byron, dooley, 4, loban court, , , 2770, tas, 19041117, 26, 04 08306129, 5564943, 0
+rec-451-dup-0, bethny, simmondvs, 25, byrne street, westbury, avoca bdeach, 5087, sa, 19470711, 29, 02 71831101, 5151646, 5
+rec-367-org,   calvin, havriluk, 6, werribee crescent, , korora, 3165, vic, 19870725, 9, 07 94485626, 8361630, 6
+rec-427-dup-0, jed, davpid, 12, herbert crescent, , seatnl, 5088, qlz, 19880528, 25, 03 57272904, 6076618, 1
+rec-320-dup-0, josqua, bishop, 31, shepherdsonn place, brentwood vlge, bundaberg, 4343, vic, 19431607, 34, 04 86980480, 3271073, 5
+rec-395-org,   fyynlay, clarke, 29, daintree crescent, carrama ridge, redmond, 4817, , 19320205, 32, 03 62831074, 4384746, 3
+rec-288-org,   noah, millar, 56, bendora crescent, , , 4573, , 19210517, , , 1921582, 3
+rec-125-dup-0, , fendley, 7, brown street, kay's place, rowvikle, 3079, nss, 19341011, , 04 35617084, 5197382, 5
+rec-152-dup-0, todb, traj, 25, warrumbul street, , clayto n, 2484, nsw, 19190128, 36, 02 90782671, 4029932, 7
+rec-82-dup-0, jack, hobson, 120, macnamara place, , werrington, 6430, vic, 19290629, 28, 04 40643104, 1690286, 3
+rec-180-org,   isabella, bellchambers, 2, jabanungga avenue, , hurstville south, 4865, , 19600106, 20, 02 85089968, 8876784, 4
+rec-478-org,   lia, bradshaw, 25, warramoo crescent, tongeroo, jamberoo, 5047, , 19520911, 27, 03 20550748, 6242623, 5
+rec-62-dup-0, hannah, paterxon, 7, crozier circuit, , bundabefrg, 6056, nsw, 19410628, 24, 08 45468676, 6513387, 0
+rec-180-dup-0, isabela, bellchagmbers, 2, jabanunggwnsavenue, , hurstville south, 4865, , 19600106, 20, 02 85089968, 8876784, 4
+rec-326-org,   , stubbs, 155, kalgoorlie crescent, , black rock, 2101, act, 19220123, , 03 95975564, 7124623, 2
+rec-397-org,   ashleigh, mcvilly, 20, axford place, , charlestown, 6019, vic, 19701122, 9, 08 46005809, 1014247, 7
+rec-200-dup-0, hannah, lavehdwr, 165, hyndes cfezcent, , flagstaff hill, 2085, nsg, 19780814, 32, 08 08923025, 1768805, 2
+rec-16-org,   zach, bishop, 5, hansen circuit, brightwater villas, peakhurst, 4810, nsw, 19300521, 34, 04 58053577, 3761754, 1
+rec-209-org,   hayden, shelley, 37, stonehaven crescent, , sandgate, 2640, wa, 19270322, 27, 04 04527628, 6690643, 7
+rec-246-org,   mitchell, ryan, 205, clive steele avenue, duck creek, preston south, 6281, wa, 19340928, , 07 08880798, 1461900, 4
+rec-175-dup-0, taycah, colbron, 13, hallen close, , lismopb, 6050, qld, 19620327, 23, 03 31747524, 8179458, 5
+rec-50-org,   chelsea, white, , olympus way, new chum, cooma, 4214, nsw, 19480910, 39, 02 08395508, 6042233, 9
+rec-448-org,   mila, clarke, 19, batchelor street, lyndale park, waverley, 4032, nsw, 19580328, 35, 08 93972879, 9415011, 3
+rec-202-dup-0, alexandra, , 45, croton street, , cronulla, 4503, tas, 19761123, , 08 14311326, 2727016, 8
+rec-264-org,   tabitha, bradshaw, 290, wilkins street, moondah, shoalhaven heads, 5169, qld, , 27, 08 30118939, 2031462, 1
+rec-212-org,   harriet, edis, 9, o'shanassy street, airlie, morwell, 2207, act, 19580605, 28, 07 37751062, 5471452, 6
+rec-236-org,   alana, reid, 310, , , surfers paradise, 2304, sa, 19241013, 19, 02 59800564, 8908333, 4
+rec-294-dup-0, ky, white, 116, hoskingoace, , keilor east, 2025, nxw, 19941222, 40, 03 32022913, 6369051, 3
+rec-367-dup-0, calvin, havekluk, 6, werribee crescent, , korora, 3165, vic, 19870825, 9, 07 94458626, 8361130, 6
+rec-274-org,   alysha, akker, 133, , moline village, peakhurst, 5067, qld, 19680402, 36, 04 65313343, 9321335, 5
+rec-87-org,   nacoya, pantazopoulos, 406, foskett street, , murdoch, 2097, vic, 19610621, 28, 07 20914004, 3560627, 1
+rec-157-org,   jack, sedgwick, 26, william wilkins crescent, troyvic, thornbury, 2102, , 19511016, 31, 04 23012656, 4061896, 8
+rec-394-dup-0, jafl, sarissy, 738, castleton crescent, , tyabb, 2277, nsw, 19151217, 36, 02 65469126, 5781482, 4
+rec-280-dup-0, scheepens, dillon, 36, marsden street, villa 3, armidale, 3429, nsw, 19408414, 34, 04 38325658, 4049083, 8
+rec-83-org,   oliver, green, 26, mulder place, rockview ashtead, penshurst, 3121, wa, , , 02 31472252, 1053496, 2
+rec-123-dup-0, thomas, gibb, 39, karawatha place, , beverly hills, 2025, vic, 19000330, 29, 04 32486660, 1598887, 8
+rec-39-org,   nicholas, beattie, 670, lexcen avenue, , ballarat, 3757, wa, 19871104, 34, , 3429355, 0
+rec-179-org,   pakita, franzin, 24, shara place, kmart p plaza, malvern east, 7325, qld, 19010502, 31, 04 73240648, 4067382, 5
+rec-216-dup-0, amelia, campylel, 5, forbes street, halcooma, montagu bay, 4507, qlr, 19020380, 27, 02 25409543, 8151497, 2
+rec-13-org,   harry, pawsey, 53, traeger street, , inglewood, 4815, vic, 19950617, 32, 03 10992549, 6477409, 3
+rec-120-dup-0, amy, pascoe, 48, ironside street, , port lin coln, 4178, qld, 19991222, 29, , 9884559, 1
+rec-446-dup-0, matthew, highfeeld, 3, chuculba crescent, , sherwood, 6109, nsw, 19830305, 39, 07 42430388, 5656089, 6
+rec-173-dup-0, lachlsag, coffey, 4, , , north ryde, 6111, vic, 19150603, , 08 71807420, 2570377, 0
+rec-414-org,   harrison, kempe, 2205, kosciusko avenue, upper gellibrand, bexley north, 6064, nsw, 19541006, , 02 96931205, 9892997, 5
+rec-386-dup-0, nathan, woghtt, 12, antill street, strathdownie, upper coomera, 7136, qld, 19161120, 27, 04 67531188, 4604386, 2
+rec-491-org,   hannah, bishop, 12, doyle terrace, , mount isa, 3012, nsw, 19741127, 37, 02 05528565, 6994889, 4
+rec-47-org,   lara, coleman, 3, john russell circuit, , sunshine, 4064, vic, 19251218, 33, 03 66554729, 4557919, 8
+rec-374-org,   samuel, colquhoun, 17, hurley street, , tighes hill, 2200, qld, 19080814, , 03 14120730, 4671530, 2
+rec-429-org,   hayley, vincent, 35, kambalda crescent, chanak, rowville, 5066, sa, 19590501, 31, 04 58152063, 5415087, 8
+rec-398-dup-0, thomas, amagula, 209, tipiloura street, karinya lodge, edenso park, 3016, vic, 19096815, , 07 46564844, 5878595, 3
+rec-282-dup-0, chelsea, shilova, 2, , , peakhust, 5540, qlv, , 26, 07 76191481, 6566758, 3
+rec-366-org,   stephanie, bellchambers, 24, rodda place, , rochedale south, 3224, qld, 19960830, 36, 04 29044730, 4231030, 8
+rec-30-org,   james, wilson-haffenden, 33, beattie crescent, , bray park, 3941, sa, 19181006, , 03 94736298, 9844636, 9
+rec-325-dup-0, annabel, liersch, 13, hart celose, , dapot, 4123, nsw, 19541212, , 02 45958448, 1082997, 0
+rec-375-org,   mitchell, quilty, 42, baldwin drive, , cranbourne north, 6017, sa, , 32, 08 42363580, 8377955, 9
+rec-101-dup-0, joshua, green, 110, atreet mcermott, , reynclla, 4059, vic, 19538119, 12, 04 14646903, 4339139, 9
+rec-330-org,   mia, robson, 5, verbrugghen street, , rochedale south, 2615, nsw, 19110516, 31, 04 46545402, 9882362, 4
+rec-4-dup-0, rachsl, gfrn, 14, carstensz street, glenle a est, o'connor, 5024, , 19170218, 31, 07 14349697, 3157696, 1
+rec-155-org,   jasmine, white, 28, ellerston avenue, , preston, 5045, sa, , , 07 09670645, 6521049, 6
+rec-284-org,   jade, ludgate, 286, munro street, , watsonia, 3224, wa, 19600918, 35, 08 32804217, 2503329, 2
+rec-0-org,   mitchell, elderton, 19, driver place, edith hall, heathcote junction, 6110, qld, 19210418, 10, 02 39505508, 4910028, 4
+rec-124-dup-0, emiily, la porte, 50, storey wtreet, , golden grove, 3377, qlc, , , 07 22218249, 2743074, 4
+rec-108-dup-0, oscar, inxr, 5, drake brockman drive, , lisnroe, 4680, nt, 19310429, 35, 02 42709563, 2066914, 8
+rec-307-org,   abbey, lacis, 10, gonzaga place, , boondall, 2680, nsw, 19250206, 27, 08 34628807, 1298933, 8
+rec-372-dup-0, joshua, dreckow, 116, , treetops, sunshie, 2300, , 19781107, 31, 08 47708907, 2730526, 3
+rec-309-dup-0, peter, solorzano, 76, wakelinc jrcuit, , wamberal, 3281, wa, 19051013, 28, 08 47418932, 9983246, 5
+rec-215-dup-0, mylds, tara, 22, leahy close, , hoppers crossing, 4285, wa, 19920720, , 07 46932175, 2936730, 1
+rec-486-dup-0, moniqu, mercroowlla, 73, schlich street, wombat hill, stepens, 3250, vic, 19180220, , 04 96164736, 1856930, 9
+rec-476-dup-0, brody, moore-crouch, 126, poynton street, , broadmevadows, 4680, nxw, 19524712, , 07 65894634, 2305515, 3
+rec-94-dup-0, dylan, waller, 39, karrugang circuit, , rylestone, 2904, tas, 19340509, 28, 08 98378315, 4694181, 2
+rec-455-dup-0, louid, putdon, 22, mcritchie cricuit, , padstow, 5211, vic, 19815115, 19, 08 82659795, 1541199, 5
+rec-37-dup-0, victoria, parr, 17, balfour crescent, , blackheath, 3148, , 19701828, 22, 04 63724533, 1062757, 7
+rec-397-dup-0, ashleig, mcvilly, 20, lace aford, , charlestown, 6011, vic, 19701122, 9, 08 46005809, 1014247, 7
+rec-241-dup-0, isabylla, hamme r, 477, theodore street, , new farm, 3146, vic, 19170524, 30, 03 59158293, 9023637, 9
+rec-454-dup-0, oakleigh, mayer, 242, westgarth street, camden, mount gravatt, 2061, wa, , 50, 02 26186868, 8446692, 6
+rec-249-dup-0, oliver, , 9, phillip avenue, , stratton, 2298, qld, 19183725, 34, 02 62197471, 3165458, 3
+rec-387-org,   hayden, campbell, 12, pokana circuit, , robina, 2770, nsw, 19021113, 20, 03 21956588, 7512264, 4
+rec-162-dup-0, john, fitzpatrick, 42, woodfull loop, morven, burawdnpa, 3472, nsw, , 33, 02 40586957, 9148237, 7
+rec-253-dup-0, thoaz, saccardo, 165, edwards street, , kurri kurri, 2176, vic, 19870111, 30, 08 97212659, 6138405, 0
+rec-261-org,   mia, mewett, 15, keartland street, holmleigh, tingalpa, 4005, nsw, 19820329, 21, 03 82702649, 8015612, 1
+rec-182-org,   mitchell, di lernia, 1, vanzetti crescent, , planland, 3427, wa, 19530606, 30, 03 19290405, 5889353, 5
+rec-306-dup-0, maxin, winfield, 305, bromley street, , devonport, 2148, vic, 19475040, 24, 07 85268753, 7285369, 0
+rec-189-org,   jacinta, ao, 19, belah street, , elizabeth grove, 3224, vic, 19921220, 26, 07 20656944, 6066578, 9
+rec-368-dup-0, handah, crossman, 119, hibiscus crescent, spq csmp, concord west, 3133, wa, , , 04 18926220, 5528797, 1
+rec-353-dup-0, ameli, lapies, 33, , goolwa cottage, long ejtty, 4701, vic, 19670605, , 08 62786156, 3115992, 3
+rec-334-org,   paige, lansdell, , wylie street, , brisbane, 6084, , 19440630, 29, 03 03529057, 1606409, 7
+rec-222-org,   lachlan, paterson, 57, crofts crescent, lawless, hawthorn, 3121, vic, 19370519, 30, 04 14365370, 4381415, 5
+rec-402-dup-0, ethan, harbottle, 12, andrews street, , clayttn, 2148, nsw, 19820247, 40, 04 23369366, 7069678, 0
+rec-476-org,   brody, moore-crouch, 127, poynton street, , broadmeadows, 4680, nsw, 19520412, , 07 65894634, 2305515, 3
+rec-276-org,   jack, hoepfner, 236, macindoe place, berkeley village, salisbury heights, 2260, sa, , 29, 07 23223591, 9975033, 5
+rec-434-org,   brianna, matson, 5, brooks street, optima lodge, calliope, 2794, nsw, , 12, 04 17240895, 3100562, 1
+rec-11-org,   jack, coulton, 20, hambidge crescent, , punchbowl, 2165, qld, 19630720, , 07 24728464, 7417440, 4
+rec-42-org,   bodhi, blackwell, 147, narrabundah lane, upper green farm, mackay north, 2350, nsw, 19350705, 11, 04 22045880, 7998446, 3
+rec-145-org,   jasmyn, lifshack, 9, dooring street, highpoint, ashgrove, 4575, , 19980721, , 07 56767569, 7685385, 4
+rec-12-dup-0, ash, bacskai, 1, copland drive, , north nanrpabeen, 5068, nsw, , 24, , 8121720, 0
+rec-498-dup-0, ethan, lowyrn, 13, baines place, , strathmerton, 5118, qld, 19830531, 25, 08 08315235, 2004946, 4
+rec-341-dup-0, bartel, ja, 20, southern cross drive, newton park, peahurst, 2170, , 19870907, 35, 08 07109805, 6750826, 7
+rec-394-org,   jack, sarossy, 738, castleton crescent, , tyabb, 2207, nsw, 19151217, 36, 02 65469126, 5781482, 4
+rec-472-org,   francesco, priest, 9, liffey circuit, lakefield, brighton, 7109, vic, 19751026, 40, 03 65988663, 1018556, 4
+rec-15-dup-0, brionp, matthews, , florey drive, , ingjam, 5280, nsw, , 28, 08 40866584, 1965734, 4
+rec-10-org,   amy, , 22, moore street, kilmore park, burwood east, 3700, tas, 19710510, 29, 07 30603885, 4428017, 0
+rec-446-org,   matthew, highfield, 30, chuculba crescent, , sherwood, 6109, nsw, 19830305, 39, 07 42403388, 5656089, 6
+rec-106-org,   cameron, bishop, 33, strickland crescent, , atwell, 3350, qld, 19661025, 22, 04 94858407, 4433717, 3
+rec-190-dup-0, april, lomman, 21, popplewell olace, rowethorpe, kogmrah, 3020, qld, 19661127, 19, 08 14486028, 7876926, 1
+rec-492-org,   oakleigh, laburn, 5, warramoo crescent, , mundingburra, 6050, qld, 19210521, 37, 08 70933155, 1955483, 5
+rec-13-dup-0, harf, pawsry, 53, traeger street, , inglewood, 4815, vic, , 32, 03 10992549, 6477049, 3
+rec-338-org,   pakita, ippoliti, 26, dolan close, , lockyer, 2131, nsw, 19620315, 23, 02 72192372, 1250120, 5
+rec-310-dup-0, madison, moind, 16, were steeet, , tarragindi, 4128, , 19840921, 47, 03 03275261, 8729832, 1
+rec-156-dup-0, charepte, droegemeller, 10, rossarden street, hyland, springsood, 2227, , 19040414, 24, 03 31916020, 7202752, 7
+rec-100-dup-0, jacob, ryan, 24, macgregor street, , rowville, 2733, sa, 19260715, 34, 08 80425495, 3585175, 6
+rec-268-org,   ella, wilkins, 24, barff place, , yungaburra, 4101, qld, 19130301, 22, 07 52564530, 9174932, 5
+rec-63-dup-0, filneh, greem, 7, affleck yplace, henry kendall hostel, dunkeld, , qld, 19150925, 31, 08 96632867, 8148683, 5
+rec-255-dup-0, bridgland, calef, 4, dalley crescent, , picnic point, 3079, sa, 19920723, , 07 42624786, 4728939, 1
+rec-351-org,   olivia, webb, 106, mackrell place, , auburn, 2193, vic, 19040614, 20, 07 12233475, 4381654, 0
+rec-376-dup-0, , rosbo, 12, spalding street, , whittingrjon, 2024, , 19121201, 27, 02 88586472, 1257427, 6
+rec-454-org,   oakleigh, mayer, 242, westgarth street, camden, mount gravatt, 2061, wa, , 24, 02 26486868, 8456692, 6
+rec-459-dup-0, thojac, clarke, 63, mansfield parade, , forbes, 5075, nsw, 19560429, 36, 03 93521844, 1135692, 7
+rec-497-org,   emiily, mccarthy, 24, bromley street, hervey park, beecroft, 2234, , 19121208, , 07 47473484, 4280532, 9
+rec-263-org,   , winfield, 18, eaglemont retreat, dudley specialist medical centre, echuca east, 4615, nsw, 19940316, , 04 12721309, 6689678, 3
+rec-138-org,   alana, moody, 10, bidwill close, , bunjurgen, 2747, vic, 19851129, 12, 04 00825666, 2968296, 3
+rec-169-dup-0, harry, nguycrn, 31, pullen street, bindaree, quorn, 5163, qld, 19440202, 4, 03 96089140, 4864726, 9
+rec-258-dup-0, benjamin, reuf, 13, eyre street, split solitary caravn park, samford valley, 2252, , 19870513, 30, 08 12880601, 9892157, 6
+rec-217-dup-0, livia, liolios, 8, tarago place, , old guildford, 3156, , 19820425, , 03 93152153, 3841395, 0
+rec-261-dup-0, mia, mewett, 18, keartland street, holmleigh, tingalpa, 4005, nsw, 19820329, 07, 03 82702649, 8015612, 1
+rec-51-org,   bailey, krecinic, 520, dugdale street, timberscombe, mackay north, 2753, nsw, 19540909, 25, , 5152151, 7
+rec-415-org,   dylan, harbottle, 52, drevermann street, emu hill, roleystone, 2304, vic, 19901015, , , 6157209, 4
+rec-346-dup-0, rebdkah, hemlof, 9, croziercofcuit, , crescent head, 2073, qlu, 19990531, 42, 07 68911246, 6549157, 6
+rec-463-org,   evan, whiteway, 15, , , asquith, 6169, , 19830306, 36, 02 28618959, 3248554, 9
+rec-288-dup-0, milar, noah, 56, bendora crescent, , , 4573, , 19210517, 29, , 1921582, 3
+rec-278-org,   chloe, large, 70, benson crescent, gwandalan, braidwood, 0836, wa, 19010714, 21, 08 46244173, 7691466, 2
+rec-344-org,   brock, zaharogiannis, 10, moogerah street, , golden grove, 5113, nsw, 19650621, , 03 02588244, 5765358, 3
+rec-447-org,   wil, magripilis, 21, lutana street, marrivale, thornleigh, 3629, vic, 19610611, , 08 56872797, 6047552, 7
+rec-358-dup-0, brody, spicer, 6, leist street, , old beach, 2232, vic, 19905705, , , 1316847, 9
+rec-478-dup-0, ligz, bradshaw, 25, warramoopcrescent, tongeroo, jamberoo, 5047, , 19520911, 27, 03 20550748, 6242623, 5
+rec-488-dup-0, sam, henshaw, 23, binya place, , clovelly, 2527, vic, 19190236, 24, 08 32936614, 8408563, 7
+rec-53-org,   lara, covino, 9, dines place, baanenuc, casula, 2440, nsw, 19560618, 38, 08 66265941, 7590347, 6
+rec-271-org,   brooklyn, satterthwaite, 31, john cleland crescent, , , 2780, vic, 19860101, 28, 08 62699120, 9903073, 9
+rec-95-dup-0, shane, capurso, 81, jacka crescent, alongamor, blacktown, 7310, vic, 19609515, 20, 02 81494438, 3853073, 0
+rec-293-dup-0, isabelle, macgowan, 597, , , dromana, 4164, vic, 19740680, 37, 03 45818291, 8983422, 1
+rec-113-org,   kiara, maynard, 60, , bogabigal, bargara, 6107, vic, 19510417, 13, 03 67265115, 4171978, 5
+rec-296-org,   kiarnee, estcourt, 16, croton street, cathys creek, clyde, 5008, act, 19990612, 31, 02 63560804, 9736081, 5
+rec-308-org,   stephanie, white, 11, jarman place, , north rocks, 4114, nsw, 19600608, 34, 07 94043195, 3795141, 5
+rec-436-org,   jack, clarke, 2, bickley close, kooyong, emmaville, 2850, nsw, 19810427, 22, 08 96517278, 4239568, 6
+rec-282-org,   chelsea, shilova, 2, macarthur avenue, , peakhurst, 5540, qld, , 26, 07 76119481, 6566758, 3
+rec-398-org,   thomas, amagula, 209, tipiloura street, karinya lodge, edensor park, 3016, vic, 19090715, , 02 02944297, 5878595, 3
+rec-305-dup-0, elizzu, moody, 40, , glenferrie park, christie downs, 6201, nsw, 19240720, 26, 02 33482342, 2352780, 6
+rec-473-org,   mia, zimmermann, 11, kellick place, unt 2, , 2263, qld, 19290917, 31, 04 80420416, 2648970, 9
+rec-422-org,   aidan, botham, 14, throssell street, west pira, berala, 2280, sa, 19620902, 9, 07 36355131, 9149267, 3
+rec-1-dup-0, byron, dooley, 4, tipper place, , , 2770, tas, , 26, 04 08306129, 5564943, 0
+rec-371-dup-0, jasmine, laskaiedis, 32, bacchus circuit, rosehill, chinchikla, 4870, tas, 19260706, , 04 03627915, 9983023, 2
+rec-190-org,   april, lomman, 21, popplewell place, rowethorpe, kogarah, 3020, qld, 19661127, 19, 08 14486028, 7875246, 1
+rec-339-org,   ryan, bueschike, 4, decima circuit, glenview, shoalhaven heads, 7018, vic, 19870201, 25, 08 98211426, 9194399, 9
+rec-381-org,   grayson, artis, 204, len waters street, , balcatta, 2206, , 19780129, 30, 03 77634675, 3229270, 3
+rec-360-org,   emiily, green, 28, clive steele avenue, , casula, 3220, nsw, 19570131, 29, 07 82687010, 6174561, 7
+rec-437-dup-0, kaildy, lansdell, 4, , bowillia court, hay, 5051, nt, 19660114, 34, 07 40828819, 2165036, 4
+rec-384-dup-0, jack, ree, 27, meadows meade, boronia drive, eaton, 2156, wa, 19901018, 33, 04 06987584, 1473428, 1
+rec-369-dup-0, georvhina, white, 111, ballumbir street, , elwood, 6522, vic, 19340521, 27, 07 96038653, 9353039, 9
+rec-461-dup-0, jack, toeta, 121, mount vernon drive, , blacksmiths, 6153, vi, , 26, 08 86070615, 7629716, 9
+rec-58-org,   isabella, egan, 27, foley place, malladup, lennox head, 3851, sa, , 31, 07 77640426, 9343227, 3
+rec-262-org,   samantha, hope, 22, mileham street, , bellambi, 4405, act, 19171221, , 07 94955471, 6712649, 1
+rec-231-org,   keely, kammermann, 22, la perouse street, the blackhut, nambour, 4350, vic, , , 03 81817910, 2376136, 6
+rec-205-dup-0, kale, whale, 6, aspinall street, , moe, 2317, qod, , 35, , 3188486, 8
+rec-214-dup-0, brydon, wheacey, 732, figg place, westleigh, greenwith, 6028, , 19780718, 32, 04 24308355, 7212790, 0
+rec-349-org,   joshua, leaver, 17, forbes street, , proserpine, 7310, , 19840311, 21, 08 42376099, 2232867, 6
+rec-419-org,   cameron, reid, 24, eddy crescent, , surfers paradise, 3460, nsw, 19000727, 30, 02 72620656, 2847168, 9
+rec-342-org,   isaac, morrison, 211, somerset street, locn 1699, tumbarumba, 3175, qld, 19161108, 32, 02 71798144, 2675006, 3
+rec-220-dup-0, , middlevrook, 35, clarkson street, , mullawkay, 2546, nsw, 19866522, 62, 07 02831577, 9291487, 0
+rec-239-dup-0, jad, dahl-helm, 16, sturdee xwescent, , orange, 2321, qld, 19110038, 29, 04 19206327, 6988235, 6
+rec-439-org,   jacob, rosa, 18, musson close, , swan view, 2230, nsw, 19781110, 23, 03 52727573, 6625261, 4
+rec-273-dup-0, emiuky, wilkins, 31, oxley street, , aluy, 3177, qld, 19110304, , 02 90410600, 5247216, 9
+rec-494-org,   steven, wilkins, 32, rene street, townview, leppington, 6008, vic, 19320415, 29, 02 44065281, 2046621, 3
+rec-71-org,   teagan, meuris, 8, evelyn owen crescent, , salisbury east, 3095, vic, , 29, 03 64703339, 3131589, 1
+rec-251-dup-0, timothy, lowr, 2, pearson street, wybelanah, altona meadows, , wa, 19591023, 29, 02 21626457, 3158049, 4
+rec-165-org,   taylor, maynard, 52, darmody street, uranbah, toogoom, 3629, vic, 19870920, 40, 07 08747898, 6480256, 5
+rec-84-dup-0, lima, averats, 99, allambed stkeet, , cohunfa, 3167, wa, 19380807, 30, 07 92831273, 4174546, 5
+rec-195-org,   elijah, lando, 561, burrinjuck crescent, , bunyip, 3101, sa, 19001101, , 04 61278945, 9968115, 3
+rec-373-org,   nathan, maida, 33, adair street, , forest hill, 3505, nsw, 19850108, 35, 02 78529274, 4463937, 4
+rec-91-org,   joshua, grimm, 46, archibald street, , cranbourne, 3912, nsw, , , 08 79092837, 8274132, 6
+rec-80-org,   noah, krollig, 13, millpost close, , medindie gardens, 2722, nsw, 19141022, , 08 15498750, 9670359, 7
+rec-482-dup-0, nikifta, christdfson, 8, williamsontstreet, , peregian beach, 4151, nsw, 19450719, 33, 07 78514419, 7219637, 0
+rec-433-dup-0, zachary, stanaury, 30, toutcher street, , petertham, 3960, wl, 19060615, 27, 07 62223040, 8476583, 0
+rec-430-org,   bailey, tu, 13, green street, , braidwood, 3084, sa, , 27, 07 10285972, 5448534, 6
+rec-26-dup-0, madison, green, 76, wongoolahxlose, , alice speings, 6239, , , 28, 07 15023450, 1105379, 2
+rec-390-org,   sophie, , 11, french street, , belrose, 2100, nsw, 19790112, 10, 07 21967708, 8278573, 8
+rec-389-org,   leah, staggard, 24, edwards street, jaipur, highett, 4215, , 19541211, 29, 08 00595595, 4281372, 8
+rec-449-dup-0, finnbar, wight, 4, hughes crescent, , moss vale, 4305, nsw, 19891019, 33, 04 45256586, 9110873, 6
+rec-291-dup-0, alexanda, mccarthy, , , , banjp, 2536, vi, 19731229, 27, , 9914511, 6
+rec-34-dup-0, kaysey, clarke, 3, lampard circuit, padicam, kyeemagh, 3152, qld, 19110507, , 04 97931484, 5905417, 4
+rec-121-org,   phoebe, white, 6, duigan street, lismore road, cairns, 7316, vic, 19490630, , 02 88711358, 1483456, 9
+rec-331-org,   isabelle, matthews, 130, amangu street, , bindoon, 4211, qld, 19830906, 26, 07 18642864, 2178452, 7
+rec-115-org,   alyssa, passmore, 20, hardie close, , calico creek, 2285, sa, 19280724, 25, 04 76496964, 4580044, 2
+rec-411-dup-0, samuel, obod, 5680, kelleway avenue, high valley, toowoomba, 4122, tas, 19881119, , 08 21214867, 7284407, 1
+rec-66-dup-0, froud, zane, 22, gaby place, , windsor, 2564, , 19820503, 32, 07 49209263, 9863154, 8
+rec-325-org,   annabel, liersch, 13, hart close, military base, dapto, 4133, nsw, 19541212, , 02 45958448, 1082997, 0
+rec-134-org,   taliah, manson, 8910, wrenfordsley place, , dulwich hill, 2232, , 19950615, , 08 89657044, 5437786, 0
+rec-339-dup-0, ryan, bueschike, 04, decima circuit, , shoalhavenr heads, 7019, vic, 19870201, 25, 08 98211426, 9194399, 9
+rec-300-org,   madeleine, musolino, 6, bougainville street, , rowville, 2023, vic, 19700210, 32, 04 15481158, 9971013, 2
+rec-460-dup-0, emiily, prytula, 8, penningto c escent, , toowoomba, 2229, vic, 19161104, , 04 07442681, 1807261, 2
+rec-99-org,   brooke, coulson, 9, cain place, lindsay, , 5087, vic, 19670815, 31, 02 10032637, 8306693, 5
+rec-376-org,   , robson, 12, spalding street, , whittington, 2024, sa, 19121201, 27, 02 88586472, 1257427, 6
+rec-6-dup-0, olivia, magony, 69, wittenoom crescent, , eaton, 4810, wa, 19734004, 24, 04 62318382, 5845537, 3
+rec-57-org,   mason, holgate, 12, moulden court, , boyup brook, 2580, qld, 19440413, 32, 04 76023902, 6512545, 5
+rec-443-org,   shawn, campbell, 15, james scott close, , wantirna, 2170, vic, 19540730, 26, 02 93524681, 2772049, 8
+rec-495-dup-0, , burman, , mcphail olace, gilli npark, bondi junction, 3352, nsw, 19931025, , 04 66036994, 2747161, 9
+rec-322-org,   kyle, hand, 21, hawkesbury crescent, , lansdowne, 2035, wa, 19930118, , 03 83810940, 4985876, 9
+rec-131-org,   steven, clarke, 43, kennedy street, , morwell, 2340, vic, 19701026, 25, 02 75777400, 4504408, 5
+rec-168-org,   katie, lowe, 8, verbrugghen street, , innaloo, 3882, vic, 19680807, 38, 02 46782112, 9872543, 4
+rec-133-org,   sophie, cannell, 2, de little circuit, glenmore, bayview, , qld, 19720702, 34, 03 74303966, 5698347, 4
+rec-403-org,   talia, mcnicholl, 185, charteris crescent, st vincents hospital, marburg, 3018, , 19901201, 26, 02 55176822, 1663629, 3
+rec-498-org,   ethan, lowry, 19, baines place, , strathmerton, 5118, qld, 19830531, 25, 08 08315235, 2004946, 4
+rec-178-dup-0, jayde, matthews, 113, narryer close, , marsfield, 6230, , 19572136, , 07 80553296, 8301070, 1
+rec-157-dup-0, jack, sedgwck, 26, william wilkins crescent, troyvic, thornbejry, 2120, , 19511016, 31, 04 23012656, 4061896, 8
+rec-160-org,   erin, toms, 42, newlop street, , potts point, 6050, vic, 19101011, 33, 08 75917148, 5373804, 0
+rec-0-dup-0, mitmhell, elderton, 19, driver iace, , heathcote junction, 6110, qld, 19210418, 10, 02 39505508, 4910028, 4
+rec-370-dup-0, jared, berrylan, 12, eton place, centennial glen, caroline springs, 3198, qld, 19381210, 37, 07 30754986, 8294464, 0
+rec-161-dup-0, chlor, golder, 2, , kimbe, sunshone, 2710, nsw, 19190111, 12, 07 07104036, 9889405, 4
+rec-276-dup-0, ethan, hoepffer, 144, macindoe place, berkeley village, salisbury heights, 2260, sa, , 29, 07 23223291, 9975033, 5
+rec-341-org,   jack, bartel, 20, southern cross drive, newton park, peakhurst, 2170, , 19870907, 35, 08 07109805, 6750826, 7
+rec-191-dup-0, emiily, whtoe, 19, springvale drive, naringal orchard, robpwa, 3931, , 19810472, 31, 03 49737027, 6204754, 4
+rec-475-org,   alex, thorpe, 132, ankaa place, , angaston, 2120, qld, 19941018, 28, 04 19879490, 9947063, 7
+rec-89-dup-0, mackenzie, blunden, 41, elkington street, hilltop hostel rowethorpe, ballaefzt, 4817, sa, 19451120, , 02 75158034, 8188564, 0
+rec-332-org,   patrick, hemlof, 145, mundang crescent, , avalon, 3219, vic, 19250919, 25, 04 56549681, 9541848, 7
+rec-286-org,   sophie, waller, , vasey crescent, monarch, mckail, 4509, nsw, 19411016, 12, 02 50168240, 6703819, 3
+rec-491-dup-0, hannah, bishop, 12, doyletfrace, , mount isa, 3012, nsw, 19741127, 37, 02 05528565, 6994883, 4
+rec-490-dup-0, cameron, neumann, 25, pethebridge street, , armidale, 3442, nsw, 19297531, 33, 07 62519085, 6962902, 1
+rec-258-org,   benjamin, reid, 13, eyre street, split solitary caravn park, samford valley, 2216, , 19870513, 30, 08 12880601, 9892157, 6
+rec-400-org,   mikayla, jolly, 15, shortland crescent, , yagoona, 2232, tas, 19200613, 29, 08 51226674, 4228410, 3
+rec-329-dup-0, drew, neviloe, 24, springvale road, , mackayo n orth, 3639, vic, 19091122, , 08 63914889, 2150844, 6
+rec-289-dup-0, taliah, mascon, 5, dookie street, , tyab, 5203, vic, 19260409, , 03 13115363, 4671616, 4
+rec-424-dup-0, gracie, allard, 44, namatjiraudwrive, , ringwood meast, 5351, qld, 19631020, 30, 02 14371221, 2528232, 5
+rec-245-org,   blakeston, ryan, 16, warrai place, , warnbro, 6044, nsw, 19570206, 27, 04 79710455, 4690961, 4
+rec-225-dup-0, emiily, selth, 4, florey odpive, , swan hill, 6004, nsw, 19931025, 36, 07 93500326, 8755335, 0
+rec-144-dup-0, emiily, joannou, 63, little mount home park, katherine avenue, banyo, 7320, qld, 19190112, 24, 02 47205096, 7814097, 8
+rec-80-dup-0, noah, krohlg, 13, millpost close, , medindie gardens, 2722, nsw, 19141022, , 08 15498750, 9670859, 7
+rec-216-org,   amelia, campbell, 5, forbes street, halcooma, montagu bay, 4507, qld, 19020308, 27, 02 25409543, 8151497, 2
+rec-441-org,   bailee, caruana, 27, simmons place, emu park lodge, newmarket, 3044, wa, 19511110, 30, 07 35822052, 9849331, 0
+rec-33-org,   rupert, thorpe, 60, majura avenue, middle rock park, surry hills, 3162, nsw, 19120215, 21, 07 96908286, 2881827, 9
+rec-78-org,   zachary, noble, 196, macadam street, , beverley park, 4067, vic, 19170630, , 02 59968202, 2899021, 0
+rec-329-org,   drew, neville, 24, springvale road, , mackay north, 3639, vic, 19091122, , 03 61245281, 2150844, 6
+rec-77-org,   gabriel, campbell, 31, crichton crescent, , thornlands, 2602, nsw, 19810331, 21, 04 05707950, 1526452, 6
+rec-252-org,   alisa, browne, 9, monkman street, edwards chambers, yarrawonga, 2756, qld, , 28, 04 38937254, 6385202, 5
+rec-184-dup-0, caleb, burorc, 7, godfry preet, , mooroolbark, 5540, qld, 19481023, 26, 07 47545538, 7652526, 7
+rec-232-dup-0, tara, hazell, 63, coogee place, , burleigh heads, 2195, nsw, 19130708, 24, 04 71957888, 5203590, 3
+rec-488-org,   sam, henshaw, 20, binya place, , clovelly, 2527, vic, 19730829, 24, 08 32936614, 8408653, 7
+rec-356-org,   hayden, thiessen, 42, rudder place, , williamstown, 4350, nsw, 19980210, 31, 08 32119280, 1375432, 5
+rec-410-dup-0, sarsha, joliy, 7, maclaurin crescent, , anglese, 4350, qld, 19091121, 34, 08 44928578, 5647245, 9
+rec-40-dup-0, harry, kireev, 43, axon street, , greensborough, 2325, nsw, 19300213, 26, 07 50697734, 2091774, 0
+rec-3-org,   aimee, rees, 19, jinka street, myona, bomaderry, 6110, nsw, , 31, 03 90786858, 3059772, 8
+rec-359-org,   lucy, woodlock, 24, baracchi crescent, rsde 817 wallace, corio, 4740, qld, 19760620, 12, 03 31416711, 5555701, 6
+rec-437-org,   kailey, lansdell, 146, paul coe crescent, bowillia court, hay, 5051, nt, 19660114, 34, 07 40828819, 2165036, 4
+rec-92-org,   marco, crute, 16, mighell place, kyalla, yatteyattah, 3030, vic, 19530324, , 03 00803441, 2006952, 1
+rec-200-org,   hannah, lavender, 165, hyndes crescent, , flagstaff hill, 2085, nsw, 19780814, 32, 08 08923025, 1768805, 2
+rec-22-org,   talissa, rosa, 53, hugh mckay crescent, , jan juc, 3977, nsw, , 21, 04 56592813, 4885277, 2
+rec-408-dup-0, teagan, ballant hne, 7, sternberg crescent, mornington, yagoona, 3101, vic, 19255027, , 07 66250888, 8773074, 3
+rec-198-dup-0, tynan, snoad, 77, deamer crwscent, the mall springwood, belrose, 3472, wa, 19371215, 10, 03 57469697, 6807547, 6
+rec-297-dup-0, marco, reed, 89, illingwor wtreet, , carlingford, 0810, , 19520521, 33, 08 94555482, 8578813, 0
+rec-183-org,   harriet, orchard, 7, ellerston avenue, holmleigh, brighton, 6021, nsw, 19300301, 28, 04 27888003, 5048964, 1
+rec-321-org,   joshua, whetton, 13, majura avenue, oatlands court, mount isa, 3465, vic, 19870528, 9, 07 08087630, 8222965, 1
+rec-128-dup-0, alysha, okely, 78, shortland crescent, , glenarpoua, 2194, wd, 19731304, 42, 07 21569668, 4209492, 5
+rec-23-dup-0, laure, zendui, 30, hardman street, scalabrini vlg, shoalwater, 3199, sa, 19450712, 29, 03 62621526, 8312649, 0
+rec-364-dup-0, michael, westermann, 45, hodgson cuescent, , dapto, 4174, qld, 19300310, , 08 93996945, 5564955, 1
+rec-221-dup-0, ellen, rickett, 55, jackie howe crescent, , sheidow park, 3019, qld, 19220523, 29, 03 65769545, 7776713, 1
+rec-74-org,   paige, pendle, 23, wilshire street, , muchea, 5540, vic, 19900612, 26, , 5447307, 3
+rec-68-org,   lachlan, bullock, 16, sanderson close, , mount buller, 3023, nsw, 19370217, 19, 03 35639917, 1037067, 4
+rec-207-dup-0, mont aba, purserk, 51, ashley drive, glenallen stud, killara, 6167, qld, 19011024, , 03 30628434, 8227372, 9
+rec-256-org,   joel, coleman, 6, bingley crescent, winton, harbord, 2036, nsw, 19630705, 34, 04 36801252, 6494010, 7
+rec-21-dup-0, alai, , 128, irwin atreet, , the rock, 6052, vic, , 27, 04 99932358, 1497860, 8
+rec-139-org,   destynii, hage, 569, castleton crescent, , terrigal, 2517, qld, 19840317, , 03 35441810, 2397717, 0
+rec-119-org,   aidyn, grobler, 1, , milpara, paralowie, 3123, qld, 19530605, 10, 04 29883218, 1183564, 7
+rec-52-dup-0, joel, singleton, 8, macdonnekl zstreet, , noble park, 4817, nsw, 19840714, , 02 78043741, 3924654, 9
+rec-93-dup-0, wilhiem, lovelock, 17, morg stteet, , sefton, 2317, wa, 19080412, , 02 68641906, 7976150, 7
+rec-104-dup-0, jordan, chandler, 13, , , malvern, 5277, qld, 19560510, 26, 07 32516970, 7053732, 1
+rec-410-org,   sarsha, jolly, 7, maclaurin crescent, , anglesea, 4350, qld, 19091121, 34, 08 44428578, 5674245, 9
+rec-136-org,   caitlin, gillard, 9, woronora street, , kialla, 2577, nsw, 19120928, 36, 07 00687176, 5141544, 3
+rec-110-org,   hudson, armiento, 8, cowper street, , mullewa, 4006, wa, 19250313, , 08 22466785, 5828875, 4
+rec-380-dup-0, charlotte, robson, 18, burrendongnstreet, , clayton, 3126, nsw, 19825535, 32, 08 08120208, 2829311, 6
+rec-275-dup-0, isabeole, byers, 9, follett street, , farryr, 2230, nsw, 19479417, 37, 04 77364985, 7766716, 4
+rec-213-org,   amy, clarke, 21, de vis place, , rosebud, 2164, vic, 19690220, 12, 08 28361540, 9156264, 7
+rec-209-dup-0, hayden, sheleu, 37, stonehaven crescent, , sandgate, 2640, wyl, 19270322, , 04 04527628, 6690643, 7
+rec-350-dup-0, piam, webb, 151, berghofer court, , willetton, 3220, vic, , , 04 12052394, 7440365, 8
+rec-496-dup-0, hannah, moyse, 2093, bungaree crescent, , willetton, 2035, nsw, 19090907, , 02 69262924, 3916402, 7
+rec-9-dup-0, , wigby, 6, antill street, , fairlight, 2148, , 19881119, , 07 00475972, 2115014, 0
+rec-243-org,   chelsea, noble, 24, condell street, greenwood, halbury, 7212, qld, 19101201, , 04 91660830, 4625565, 6
+rec-317-dup-0, jake, mcgregor, 116, , , mitchqm, 3187, qld, 19300277, 26, 08 81371476, 3797221, 2
+rec-204-dup-0, zachfry, van poeteren, 44, gellibrand street, , gwynneville, 3418, , 19091005, 29, 03 03873190, 6857579, 2
+rec-208-org,   kayla, dixon, 64, , carowood, padstow, 3487, nsw, , 9, 03 53562971, 3342983, 9
+rec-428-dup-0, benjamin, attle, 91, dooring street, glenoak, artarmon, 3177, , , 26, 03 96930319, 8432781, 3
+rec-378-dup-0, lachzab, nhe, 26, , , mansfield, 2509, vic, 19680708, 28, 02 28093383, 2363993, 6
+rec-459-org,   thomas, clarke, 63, mansfield parade, , forbes, 5075, nsw, 19560429, 36, 03 93521844, 1135692, 7
+rec-45-dup-0, crook, elizabeth, 2646, limbunya street, makor, harris park, 3123, tas, , 28, 03 52296297, 8197026, 4
+rec-452-org,   kayden, versteeg, 49, ashcroft crescent, , chisholm, 6027, vic, 19800318, 33, 07 10059892, 8707183, 3
+rec-471-org,   lily, carbone, 40, buik place, , eight mile plains, 4870, vic, 19180411, 24, 03 47724775, 4055515, 0
+rec-290-org,   jayde, stephenson, 2, pryor place, school house, ballarat, 3165, vic, 19650706, , 02 99083228, 7555688, 8
+rec-138-dup-0, alana, moouh, 10, bidwill aclose, , bunjurgen, 2747, vic, 19851129, 12, 04 00825666, 2968296, 3
+rec-326-dup-0, , stub, 155, kalgoorlie crescent, , black rock, 2101, act, 19220123, , 03 95795564, 7124623, 2
+rec-35-org,   joshua, blackwell, 249, grayson street, , blayney, 2283, sa, 19420321, 25, 04 40909335, 8613841, 2
+rec-490-org,   cameron, neumann, 25, pethebridge street, , armidale, 3442, nsw, 19290731, 33, 07 62519085, 8268606, 1
+rec-266-org,   juliana, mason, 219, dore court, st francis village, jindalee, 3197, nsw, 19881003, , 03 36898162, 4681073, 3
+rec-336-dup-0, keziah, turalr, 16, walhallow ltreet, , malvern east, 2068, nsw, 19000411, , 07 36098317, 5307214, 4
+rec-408-org,   teagan, ballantyne, 8, sternberg crescent, mornington, yagoona, 3102, vic, 19250527, , 07 66250888, 8773074, 3
+rec-78-dup-0, zachary, noble, 196, macadam street, , beverlecypark, 4067, vip, 19170630, , 02 59968202, 2899022, 0
+rec-485-org,   harley, hyland, 87, midwood court, , , 4740, nsw, 19551024, 33, 04 56228841, 2334373, 1
+rec-25-org,   kane, ranson, 1741, kirkland circuit, ballyboy, forrestfield, 4068, nsw, , 12, 02 27597776, 3871344, 4
+rec-273-org,   emiily, wilkins, 33, oxley street, , albury, 3177, qld, 19110304, , 02 90410600, 5247216, 9
+rec-32-org,   aaliyah, berryman, 14, mcginness street, , figtree, 2264, nsw, 19970130, 31, 02 67459926, 1713452, 5
+rec-38-org,   jake, priest, 1, climpson place, , riverwood, 3186, nsw, , 20, 02 30783501, 3384818, 3
+rec-481-org,   , clarke, 54, glencross street, , palmerston, 4132, vic, 19220202, 35, 02 07499321, 2642630, 8
+rec-377-dup-0, harrison, trepma, 13, barnett close, laurel vale poll hereford stud, springvale south, 2071, nsw, 19610417, , 08 66928468, 7930063, 0
+rec-41-org,   thomas, fitzpatrick, 26, monson place, first avenue, yarraville, 3028, nt, 19400131, 39, 07 56115013, 2350421, 1
+rec-355-dup-0, , hendriksen, 5, mcguiness place, locn 1996, ulverstone, 3153, ns, 19952021, 19, 08 67935155, 6099498, 6
+rec-35-dup-0, joxj, blackwzeoll, 249, grayson street, , blayney, 2283, sa, 19420321, 25, 04 40909335, 8613841, 2
+rec-457-org,   william, d'emden, 4, mitta place, rowethorpe, mooroolbark, 6172, qld, 19210529, 34, 02 71968518, 9341485, 9
+rec-219-dup-0, jessica, macgowan, 137, sturt avenue, , wendoudree, 3088, nsw, 19084272, 28, 04 52885849, 7105928, 3
+rec-320-org,   joshua, bishop, 23, shepherdson place, brentwood vlge, bundaberg, 4343, vic, 19431107, 34, 04 86980480, 3271073, 5
+rec-313-dup-0, setg, bowerman, 3, freehilbl qstreet, , corirmal, 3135, wa, , 30, 03 84363315, 8286110, 0
+rec-150-dup-0, jared, trzcinski, 7, o'halloranodircuit, , more, 2008, vic, 19600259, 27, 08 99530526, 4346717, 1
+rec-193-dup-0, oliver, nguyen, 1, , garden settlement, melville, 3612, qle, 19431122, 32, 04 57834727, 6448454, 7
+rec-105-dup-0, gabrieljla, reie, 435, christmasczereet, , newmarket, 4575, nsw, 19601127, , 03 10419915, 9331696, 3
+rec-142-org,   hudson, kinter, 5, fihelly street, nanto, elanora heights, 3278, sa, 19130609, 22, 08 09621472, 6834699, 5
+rec-303-org,   chelsea, coleman, 13, macumba place, , orbost, 2567, nsw, 19680809, , 02 69819354, 3578052, 7
+rec-183-dup-0, harriet, orchard, 7, ellerston venue, , brignon, 6021, nsw, 19300301, 28, 04 27888003, 5048464, 1
+rec-386-org,   nathan, white, 12, antill street, strathdownie, upper coomera, 7316, qld, 19161130, 27, 04 67531188, 4604386, 2
+rec-223-dup-0, kaitlin, smithszon, 17, marshall street, , patterson lakes, 3172, vic, 19930331, , 04 80087738, 5018441, 6
+rec-438-dup-0, ella, compagne, , brinsmeaf street, , concord west, 2340, tas, 19003306, 37, , 2621661, 7
+rec-81-org,   harley, fitzpatrick, 425, wilkins street, , emerald beach, 5006, vic, 19800518, 23, 03 02190140, 5775682, 7
+rec-263-dup-0, , winfield, 11, eaglemont retreat, , echuca east, 4651, nsw, 19940316, , 04 12721309, 6689678, 3
+rec-94-org,   dylan, waller, 41, karrugang circuit, the meadows, rylstone, 2904, tas, 19340509, 28, 08 98378315, 4694181, 2
+rec-368-org,   hannah, crossman, 119, hibiscus crescent, spq camp, concord west, 3101, wa, 19400216, , 04 18926220, 5528797, 1
+rec-64-org,   holly, gallinsky, 49, ross smith crescent, beau-ridge, edgewater, 2168, vic, , , 04 88049921, 9143666, 9
+rec-79-dup-0, , nederpel, 510, middletob ccrcuit, , mosman, 2616, vic, 19430920, 29, 03 30247608, 5080860, 3
+rec-227-dup-0, maddison, milwar, 11, morgan crescent, terranora, mooloolaba, 6066, , 19700928, 24, 04 91817144, 9574776, 0
+rec-103-org,   emma, fenwick, 37, bandjalong crescent, , kingston, 3064, wa, 19410122, 24, 08 62935847, 1902625, 3
+rec-496-org,   hannah, moyse, 205, bungaree crescent, cadagi grove, willetton, 2035, nsw, 19090907, , 02 69262924, 3916302, 7
+rec-375-dup-0, mitcll, quiosty, 42, baldwin drive, , cranboutne north, 6017, sa, , 32, 08 42363580, 8377955, 9
+rec-154-dup-0, isabeole, bouras, 62, berne crescent, the oasis, naregoonnar, 4503, vic, 19849328, , 03 13016301, 6005667, 2
+rec-307-dup-0, abbey, laciws, 10, gonzaga place, , boondall, 2609, , 19252006, 27, 08 34628807, 1298933, 8
+rec-387-dup-0, hayden, campbhell, 12, pokana dircuit, , robia, 2770, nsw, 19021113, 20, 03 21956588, 7512046, 4
+rec-239-org,   jade, dahl-helm, 16, sturdee crescent, , orange, 2321, qld, 19110308, 29, 04 19206327, 6988215, 6
+rec-327-dup-0, holly, tomney, , callaghan street, , hillside, 3803, qld, 19655528, , 02 90707930, 8775777, 2
+rec-321-dup-0, joshua, whetnv, 13, majura afenue, oatlands court, mount isa, 3465, vic, 19870558, 9, 07 08087630, 8222965, 1
+rec-264-dup-0, tabitta, bradsxeaw, 290, wilkins street, moondah, shoalhaven heads, 5169, qld, , 27, 08 30118939, 2031462, 1
+rec-65-dup-0, mason, lucas, 7, thornhill crescent, , bray park, 3181, nsw, , , 07 46673029, 2829757, 5
+rec-281-org,   hamish, berry, 87, strzelecki crescent, , hopetoun, 4612, nsw, 19790721, 12, 04 16038002, 8519006, 1
+rec-479-dup-0, tristmn, morrison, 177, mayo steeet, , nambkoyr, 4702, vic, 19680617, 29, 04 66794249, 2448009, 3
+rec-132-org,   jacob, van der eyk, 75, cowper street, heritage est, st clair, 4860, nsw, 19070914, 31, 04 29271078, 8607493, 2
+rec-318-org,   chloe, paine, 8, grayson street, gordale, belrose, 3048, qld, 19560525, 26, , 6259323, 3
+rec-5-dup-0, caresse, , 2, derrington crescent, , narellan vale, 2517, vic, 19550738, , 08 98210968, 9723274, 3
+rec-390-dup-0, sophie, , 0, frenchgspreet, , , 2100, nsw, 19790112, 10, 07 21967708, 8278573, 8
+rec-460-org,   emiily, prytula, 38, pennington crescent, , toowoomba, 2229, vic, 19161104, , 04 07442681, 1807261, 2
+rec-27-dup-0, triniry, leslie, 102, , , veront, 2223, nsw, 19364120, 20, 04 49678643, 1841715, 1
+rec-156-org,   charlotte, droegemueller, 10, rossarden street, hyland, springwood, 2227, , 19040414, 24, 03 31916020, 7202752, 7
+rec-484-org,   liam, meadows, 95, jardine street, , south perth, 3216, vic, 19570930, 29, 08 40028978, 1256247, 9
+rec-247-dup-0, connor, metherell, 15, pelsarthsneet, , terrigal, 3122, nsw, 19001214, 21, 08 15736554, 7264913, 4
+rec-345-org,   madeline, spong, 96, condamine street, glenfine station, lake illawarra, 6152, nsw, 19200530, 30, 03 67439176, 9961101, 2
+rec-221-org,   ellen, rickett, 53, jackie howe crescent, , sheidow park, 3016, qld, 19220523, 29, 03 65679545, 7776713, 1
+rec-246-dup-0, mitchell, rybn, 204, clive steele avenue, , preston south, 6281, wa, 19340928, , 04 45978690, 1461900, 4
+rec-236-dup-0, demitrios, reid, 310, , , surfers paradise, 2304, sa, 19241463, 19, 02 59800564, 8908333, 4
+rec-67-org,   alana, willing, 9, , kingway tourist park, booker bay, 3976, nsw, 19741226, , 07 31786507, 3005536, 2
+rec-68-dup-0, lachlan, bullock, 16, sanderson close, , , 3023, nds, 19370217, 19, 03 35693917, 1037067, 4
+rec-405-org,   aurora, radic, 21, narryer close, reynolds dale, corio, 2640, qld, 19380728, 11, 03 58560918, 4375911, 0
+rec-112-dup-0, tara, tow, 10, weaver place, , kinglake, 4554, qkf, 19620217, 29, 03 94954984, 6200303, 1
+rec-294-org,   ky, white, 116, hosking place, , keilor east, 2075, nsw, 19941222, 40, 03 32022913, 6369051, 3
+rec-303-dup-0, coleman, chelsea, 13, macumba place, , orbost, 2567, nsw, 19688879, , 02 69819354, 3578062, 7
+rec-151-org,   caleb, hentze, 53, harris street, , kirwan, 2573, vic, 19101012, 25, 04 89434096, 9045459, 3
+rec-489-dup-0, teehah, newberry, 24, boswell crescent, yarrandoo, surfers paradise, 3166, qld, 19650331, 20, 02 06097130, 6997566, 1
+rec-3-dup-0, aimee, rees, 71, jinka street, , bomaderry, 6110, nssd, , 31, 03 90786858, 3059772, 8
+rec-442-org,   grayson, trowse, 2, carruthers street, farm shed, peterhead, 5127, qld, 19320922, 25, 03 29288736, 1570048, 6
+rec-353-org,   amelia, lapies, 33, , greenwood, long jetty, 4701, vic, 19670605, , 08 62786156, 3115992, 3
+rec-83-dup-0, oliver, green, 36, rockview ashtead, , penhurst, 3121, wa, , , 02 31472252, 1053496, 2
+rec-211-org,   cooper, stubbs, , macpherson street, , smithfield, 4270, sa, 19670418, 29, 08 63424764, 8449978, 2
+rec-115-dup-0, alyssa, passmforw, 20, hardie close, , calicocroeek, 2285, sa, 19280724, 25, 04 76496964, 4580044, 2
+rec-70-org,   oliver, henderson-wilson, 38, brodzky place, st francis room, wangaratta, 5019, vic, , 28, 08 78489257, 1914957, 8
+rec-36-org,   lily, rawlings, 35, schlich street, tathra, granville, 2508, , 19780325, 32, 03 26844938, 5269784, 3
+rec-464-dup-0, kir, lode, 2, shoalhaven avenue, , ruab on, 6720, sa, 19000115, 30, 07 31109764, 3297170, 2
+rec-173-org,   lachlan, coffey, 4, , , north ryde, 6111, vic, 19150603, 19, 08 71807420, 2570377, 0
+rec-404-dup-0, olivia, lavender, 10, gledden srreet, morago, cranborne, 3199, vic, , , 04 29896413, 5832051, 8
+rec-5-org,   caresse, drought, 14, derrington crescent, , narellan vale, 2517, vic, 19550728, , 08 98210968, 9723274, 3
+rec-405-dup-0, aurora, radic, 21, narryer close, reynolds dale, croio, 2640, qld, 19312878, 11, 03 58560918, 4375911, 0
+rec-135-org,   micaela, scudds, 5, heard street, , farrer, 2210, nsw, 19321015, 32, 03 37792749, 3793496, 6
+rec-137-org,   anthony, rollins, , macfaull place, , berwick, 2030, vic, 19850501, 33, 04 07975216, 3413638, 9
+rec-382-org,   mia, longman, 31, castor place, rosetta village, blacktown, 6072, nsw, 19270730, 23, 08 06144900, 7527588, 3
+rec-418-dup-0, reuben, rym, 12, gledden street, canberra centre, broken ill, 3977, vic, 19383132, 31, , 5900481, 8
+rec-45-org,   elizabeth, crook, 266, limbunya street, makor, harris park, 3123, tas, , 27, 03 52296297, 8197026, 4
+rec-316-dup-0, thomas, herbert, 23, cornish place, , arundel, 2537, vic, 19192101, 30, 04 79173639, 4830420, 0
+rec-175-org,   taylah, colbron, 116, hallen close, , lismore, 6050, qld, 19620327, 23, 03 31747524, 8179458, 5
+rec-486-org,   monique, mercorella, 73, schlich street, wombat hill, stephens, 3250, vic, 19180220, , 04 96164736, 1856930, 9
+rec-99-dup-0, brooke, collson, 9, cain pkace, lindsay, , 5087, vic, 19670815, 31, 02 10032637, 8308693, 5
+rec-370-org,   jared, berryman, 12, eton place, centennial glen, caroline springs, 3198, qld, 19381210, 35, 07 30574986, 8294464, 0
+rec-287-org,   zali, reid, 295, kinleyside crescent, marina one, bull creek, 4702, nsw, 19510703, 22, 07 35034708, 1321725, 1
+rec-188-dup-0, , afford, 3, ashby cyrvuit, , 2615, annandlae, wa, 19960225, 30, 04 89902317, 2257229, 6
+rec-335-dup-0, shakira, klemm, 8, livingston avenue, kaluna, killara, 3988, vic, , 21, 03 82493328, 5954283, 6
+rec-88-dup-0, phoebe, bradswaw, 324, hurley street, springdale, shellharbour, 3078, nsw, 19770708, 22, 04 08435302, 5595893, 8
+rec-475-dup-0, alex, thorpe, 132, ankaa place, , angason, 2192, qld, 19941018, 25, 04 19879490, 9947063, 7
+rec-130-dup-0, brooke, capurso, 50, sheehan street, , concord west, 5045, , 19270251, , 04 86861687, 2848450, 3
+rec-308-dup-0, stephanie, whixte, 11, jarmtn place, , north rocvks, 4114, nsw, 19600608, 34, 07 94043195, 3795141, 5
+rec-97-dup-0, kallie, richovmnd, 17, o'connor circuit, , highhate, 4506, sa, 19690824, , 04 40479766, 3273182, 2
+rec-215-org,   tara, myles, 12, leahy close, , hoppers crossing, 4285, wa, 19920720, , 07 46932175, 2936730, 1
+rec-338-dup-0, pakiat, ippoliti, 28, dolan close, , lockyer, 2131, nsw, 19620561, 23, 02 72192372, 1250120, 5
+rec-204-org,   zachary, van poeteren, 44, gellibrand street, , gwynneville, 3418, vic, 19091005, 29, 03 03873190, 6857509, 2
+rec-403-dup-0, talia, mcnicholl, 185, charteris drrscent, , marbufg, 3081, , 19901201, 26, 02 55176822, 1663629, 3
+rec-174-dup-0, seanna, berry, 17, jones pkace, , dover heights, 4735, nsw, 19060305, 33, 04 36865926, 1140910, 7
+rec-333-org,   ellie, dreckow, 16, freda gibson circuit, vambi back, toowoomba, 3216, wa, 19140210, , 04 84755761, 4534582, 0
+rec-98-org,   alexandra, herbert, 8, stroud place, welcome swallow angus illalangi rmb 1800, tuart hill, 3162, qld, 19710226, 28, 02 22196654, 5295857, 0
+rec-315-dup-0, danidl, ludgate, 13, banvard place, , malvern east, 4650, nsw, 19070177, 12, 02 19729602, 3026388, 5
+rec-205-org,   kale, whale, 23, aspinall street, , moe, 2317, qld, , 35, 02 60658123, 3188486, 8
+rec-395-dup-0, fyynlay, clarme, 2, daintree crescent, carrama ridge, redmond, 4871, , 19320205, 32, 03 62831074, 4384746, 3
+rec-160-dup-0, erin, toms, 42, newlopstreet, , potts point, 6050, , , 33, 08 75917148, 5373804, 0
+rec-19-dup-0, riley, novos, 96, alderman eztreet, , kilcoy, 2260, nsw, 19970406, 26, 04 98766590, 9263593, 4
+rec-259-dup-0, ollid, bishop, 17, lewis luxton avenue, , orange, 2329, qld, , 26, 07 72898696, 5765733, 8
+rec-50-dup-0, chelsea, white, , olympus way, new chum, cooma, 2421, nsw, 19480910, 39, 02 08395508, 6042332, 9
+rec-453-org,   kody, steed, 89, hardwick crescent, , coffs harbour, 2027, tas, 19590912, 26, 08 70480639, 4391757, 7
+rec-104-org,   jordan, chandler, 11, , vinery, malvern, 5277, qld, 19560510, 26, 07 32516970, 7053732, 1
+rec-10-dup-0, amy, , 22, bolali pklace, kilmore park, burwood east, 3700, tas, 19710510, 29, 07 30603885, 4428417, 0
+rec-219-org,   jessica, macgowan, 136, sturt avenue, , wendouree, 3088, nsw, 19040222, 28, 04 52885849, 7105928, 3
+rec-227-org,   maddison, millar, 11, morgan crescent, , mooloolaba, 6066, , 19700928, 24, 04 91817144, 9574767, 0
+rec-109-org,   harrison, tao, 19, bindel street, gibraltar, stratton, 3073, , 19250828, 28, 02 76938875, 9792360, 7
+rec-237-dup-0, olivia, coulls, 60, pennefather street, , waverley, 2226, qlf, 19651016, 30, 03 32205604, 5982621, 5
+rec-31-dup-0, , carbone, 391, dulverton street, , glenningvalley, 2233, qld, 19221024, 6, 02 27188287, 4241469, 0
+rec-285-org,   charlie, , 122, settlement street, wattle place, clapham, 4118, nsw, , 34, 07 32636914, 3811082, 6
+rec-383-dup-0, chloe, sherriff, 81, henry truet, , mount pleasant, 2161, vic, 19470012, 26, 03 51712365, 3869840, 7
+rec-71-dup-0, meuris, teagwm, 8, evelyn owen crescent, , salisbury east, 3095, vic, , 20, 03 64703339, 3131589, 1
+rec-139-dup-0, destynii, hagc, 569, castleton crescent, , terrgal, 2574, qld, 19840317, , 03 35441810, 2397717, 0
+rec-431-dup-0, emn, hisllo, 18, carlile street, donore, yorkeys knob, 2768, nsw, 19370998, 27, 03 46424749, 2052608, 2
+rec-133-dup-0, , cannejl, 2, de little circuit, , bayview, , qld, 19720702, 35, 03 74303966, 5698347, 4
+rec-382-dup-0, , longman, 31, castor place, rosetta village, blacktown, 6721, nsw, 19270730, 23, 08 06144900, 7527588, 3
+rec-81-dup-0, harluy, fitzpatrick, 407, wilkins street, , 5006, emerald beach, vic, 19800518, 23, 03 02190140, 5775682, 7
+rec-451-org,   bethany, simmonds, 25, byrne street, , avoca beach, 5087, sa, 19470711, 29, 02 71831101, 5151646, 5
+rec-140-dup-0, pearson, ryae, 75, hosking place, clivden, tingapa, 4670, , 19060917, 27, 04 41854650, 7174018, 5
+rec-384-org,   jack, rees, 27, boronia drive, meadows meade, eaton, 2156, wa, 19901018, 27, 04 06987584, 1473429, 1
+rec-34-org,   lachlan, clarke, 10, lampard circuit, padicam, kyeemagh, 3152, qld, 19110507, , 04 97931484, 5905417, 4
+rec-429-dup-0, hayley, vincent, 35, burnsbreet, chanak, rowville, 5066, sa, 19590501, 34, 04 58152063, 5415087, 8
+rec-192-org,   alana, held, 43, dexter street, , bayview heights, 4700, act, 19970929, 32, 08 81945166, 4567211, 2
+rec-401-dup-0, white, alexander, 7, enright crescent, coryndirk, toukley, 4508, qld, 19890510, 32, 04 69321648, 4005718, 9
+rec-434-dup-0, briabna, matson, 3, brooks street, optima lodge, calliope, 2794, nsw, , 12, 04 17260895, 3100526, 1
+rec-281-dup-0, hamish, berry, 87, strzelecki crescent, , hopetoun, 4612, nsw, 19790721, 12, 04 16238002, 8519006, 1
+rec-305-org,   eliza, moody, 40, burria place, glenferrie park, christie downs, 6210, nsw, 19240720, 26, 02 33482342, 2352780, 6
+rec-166-org,   travis, green, 50, totterdell street, wilgee, caulfield, 2580, wa, 19090622, 9, 02 18537281, 5520950, 6
+rec-76-org,   daniel, whiteley, 43, jensen street, , scarborough, 3021, wa, 19150804, , 07 33718257, 1391817, 3
+rec-73-dup-0, alexander, whet ez, 131, arthur circle, mountainside, findon, 3194, sa, 19700511, 31, 03 57199042, 2171618, 4
+rec-298-dup-0, jackson, paine, 12, vizard greet, , bundaberg, 4305, sa, , , 02 54655859, 9437347, 7
+rec-20-org,   erin, colquhoun, 37, dethridge street, trumalon, wanneroo, 3091, nsw, 19800207, 30, 08 76564498, 3792824, 6
+rec-464-org,   kira, lodge, 2, shoalhaven avenue, , ruabon, 6720, sa, 19000115, 28, 07 31109764, 3297170, 2
+rec-201-org,   micah, mesecke, 41, corrigan place, , eaton, 3108, nsw, 19231018, 32, 02 62414518, 1772980, 1
+rec-312-org,   sophie, grierson, 39, richards street, iona village, colo vale, 2000, sa, 19480626, 38, 04 10301390, 8352498, 8
+rec-198-org,   tynan, snoad, 77, deamer crescent, the mall springwood, belrose, 3472, wa, 19371215, 12, 03 57469697, 6807547, 6
+rec-101-org,   joshua, green, 110, mcdermott street, , reynella, 4059, vic, 19531119, 12, 04 14646903, 4339139, 9
+rec-392-org,   paris, tarooki, 32, gibbes place, , largs, 4017, nsw, 19210104, , 08 87500213, 3139908, 5
+rec-126-dup-0, conrick, gus, 15, creed place, , bannister, 5197, nsw, 19390111, 7, 08 04892813, 9687215, 1
+rec-60-org,   lachlan, grossman, 31, marchant circuit, , trentham, 2756, wa, 19630307, , 04 33658480, 1053376, 6
+rec-170-dup-0, keahley, spagnlletti, , elsey street, , deniliquin, 2323, nsw, 19120406, 34, 03 14461404, 1145330, 7
+rec-318-dup-0, chlor, paine, 85, graysont ptreet, gordale, belrose, 3048, qld, 19560525, 26, , 6259323, 3
+rec-271-dup-0, brooklyn, sattertheaite, 31, john crescent cleland, , , 2680, vic, 19940630, 28, 08 62699120, 9903073, 9
+rec-306-org,   maxin, winfield, 301, bromley street, , devonport, 2148, vic, 19471030, 24, 07 85268753, 7285369, 0
+rec-415-dup-0, dylab, harbottle, 52, drevermann street, emu hill, roleystone, 2304, vic, 19901015, , , 6157299, 4
+rec-335-org,   shakira, klemm, 7, livingston avenue, , killara, 3988, vic, , 21, 03 82403518, 5954283, 6
+rec-223-org,   kaitlin, smithson, 17, marshall street, , patterson lakes, 3172, vic, 19910331, , 04 80087738, 5018013, 6
+rec-440-org,   mikayla, block, 40, aspinall street, bogandina prop, balwyn north, 3608, vic, , 38, 02 46513696, 1842908, 5
+rec-2-org,   daniel, frahn, 2, doyle terrace, , leongatha, 2518, vic, 19560225, 27, 04 02744763, 9686247, 1
+rec-358-org,   brody, spicer, 8, leist street, , old beach, 2232, vic, 19950705, , , 1317647, 9
+rec-311-dup-0, lachlan, crouah, 28, maharatta circuit, , 6112, inna6oo, , 19921103, , 07 55534600, 2069059, 0
+rec-116-dup-0, isaac, vreugdenburg, 9, eildon place, lake macquarie vlge, berwick, 5214, qlg, 19700830, 35, 03 79174413, 9760144, 0
+rec-60-dup-0, lachlan, grossmab, 31, , , trentham, 2756, wa, 19630797, , 04 33658480, 1053376, 6
+rec-284-dup-0, jade, ludgate, 2764, munrovtreet, , watsonia, 3224, wa, 19600918, 35, 08 32804217, 2503329, 2
+rec-269-dup-0, brooke, green, 38, lhotsky nstreet, challicum south, hackham, 2097, qld, 19500315, 21, 04 25488824, 6347772, 3
+rec-197-dup-0, liam, purtlel, 3, marchant ircuit, rosetta village, monho, 4896, vic, 19891016, , 08 49105506, 4284580, 2
+rec-185-dup-0, elki, mason, 14, robson street, welcome swallow angus illalangi rmb 1800, cromer, 3114, nsw, 19490409, 27, , 8213572, 5
+rec-213-dup-0, am, clark, 22, de vis place, vill 2, rosebud, 2164, vic, 19690220, 12, 08 28361540, 9156264, 7
+rec-240-org,   connor, toohill, 15, hyndes crescent, bushland retirement village, old bar, 5152, nsw, 19181101, 20, 03 46703431, 7258299, 8
+rec-176-org,   oliver, dixon, 10, flinders way, rosedale, belconnen, 2536, wa, 19990325, , , 6972455, 0
+rec-232-org,   tara, hazell, 63, coogee place, , burleigh heads, 2195, nsw, 19130608, 24, 04 71957888, 5203489, 3
+rec-130-org,   brooke, capurso, 50, sheehan street, , concord west, 5045, , 19260531, , 04 86861687, 2848450, 3
+rec-283-dup-0, , mcgarrigan, 735, herbert crescent, killarney, alice spings, 2485, nsw, 19371122, 38, 07 61280055, 3964165, 6
+rec-168-dup-0, katie, lowe, 71, verbrugihe street, , innaloo, 3882, vic, 19680807, 38, 02 46781312, 9872543, 4
+rec-244-dup-0, libby, blame, , langridge street, , mosman, 5043, sp, 19970618, 22, 02 04846994, 5811767, 1
+rec-471-dup-0, lky, carbone, 4, buik place, , eight mile plains, 4870, vic, 19180411, 24, 03 47723775, 4055515, 0
+rec-350-org,   pia, webb, 151, berghofer court, , willetton, 3204, vic, , , 04 12506394, 7440365, 8
+rec-420-org,   nicholas, shepherd, 124, gleadow street, rowethorpe, drysdale, 2026, nsw, 19810419, 33, 07 02419359, 7231084, 6
+rec-245-dup-0, blaexton, ryan, 16, , , warnbro, 6044, nsw, 19570206, 27, 04 79719455, 4698961, 4
+rec-82-org,   jack, hobson, 120, macnamara place, , werrington, 6430, vic, 19280629, 28, 04 40645014, 1690286, 3
+rec-309-org,   peter, solorzano, 76, wakelin circuit, , wamberal, 3281, wa, 19051013, 28, 08 47418932, 9983156, 5
+rec-292-org,   cameron, coffey, 5, julius street, , shell cove, 6175, vic, 19080911, 9, 04 93468190, 1141915, 5
+rec-137-dup-0, rollins, anthon, , macfaullplace, , berwick, 2030, vic, , 33, 04 07975216, 3413638, 9
+rec-48-org,   liam, , 5, burdekin street, , murray bridge, 3141, tas, 19940219, 10, 02 72236827, 6393971, 7
+rec-27-org,   trinity, leslie, 102, , , vermont, 2223, nsw, 19361130, 20, 04 49678643, 1841715, 1
+rec-25-dup-0, kane, ranson, 1741, kirklandcircuit, ballyboy, forrestfield, 4086, nss, , , 02 27957776, 3871344, 4
+rec-304-org,   jenna, fitzpatrick, 98, arndell street, , keswick, 3714, qld, 19161011, 41, 04 30957513, 2174095, 9
+rec-300-dup-0, madeleine, musolino, 17, bougainville street, , rowville, 2023, vic, 19702060, 32, 04 15481158, 9971013, 2
+rec-355-org,   , hendriksen, 5, mcguiness place, locn 1996, ulverstone, 3135, nsw, 19950221, 19, 08 67934455, 6099498, 6
+rec-203-org,   , stearnes, 28, moodie street, , wynnum west, 3162, act, 19720201, 38, 03 10901141, 7120254, 3
+rec-100-org,   jacob, ryan, 224, macgregor street, , rowville, 2733, sa, 19260715, 34, 08 80425495, 3585565, 6
+rec-409-org,   hayley, bruse, 11, clive steele avenue, , , 4306, nsw, 19480909, 30, 02 13683485, 6001428, 4
+rec-149-org,   patrick, mason, 21, cavenagh place, , figtree, 5725, vic, 19821105, 29, 07 45410001, 5702449, 8
+rec-158-org,   wilson, earwaker, 42, coppins crossing road, , ulladulla, 2040, nsw, 19240117, 41, , 6237218, 9
+rec-297-org,   marco, rees, 89, illingworth street, , carlingford, 0810, , 19520521, 33, 08 94555482, 8578813, 0
+rec-208-dup-0, kayla, dixocm, 64, , carowood, padstow, 3487, nsw, , 9, 03 53562971, 3344383, 9
+rec-439-dup-0, jacsb, rosam, 18, musson close, , swan view, 2230, nsw, 19782120, , 03 52727573, 6625261, 4
+rec-417-org,   brooke, clarke, 34, nugal place, cordboba park, morwell, 4215, nsw, 19221013, 7, 07 89434428, 8823637, 2
+rec-53-dup-0, lars, covino, 2, dines elace, baanenuc, casula, 2440, nsw, 19560618, 38, 08 66265941, 7590347, 6
+rec-126-org,   gus, conrick, 15, creed place, , bannister, 5108, nsw, 19390111, 7, 08 04892813, 9687215, 1
+rec-389-dup-0, leah, staggrrkd, 24, edwards street, , highett, 4215, , 19541211, 29, 08 00955595, 4281372, 8
+rec-293-org,   isabelle, macgowan, 597, , , dromana, 4165, vic, 19740607, 37, 03 45818291, 8983425, 1
+rec-453-dup-0, coc, steed, 89, hardwick crescent, , coffs harbour, 2072, tas, 19590912, , 08 70480639, 4391757, 7
+rec-371-org,   jasmine, laskaridis, 32, bacchus circuit, rosehill, chinchilla, 4870, tas, 19260706, , 04 03627915, 9983023, 2
+rec-465-dup-0, sophi, hop e, , chipperfielx circuit, , noble park north, 2323, qlq, 19970315, , 07 08746638, 7099860, 0
+rec-279-dup-0, shakirah, wilkins, 12, aroona court, , bethania, 3125, vic, 19182814, , 08 59067433, 1574587, 6
+rec-235-org,   luke, mccracken, 70, scottsdale street, rich meadows, bilpin, 3922, vic, 19130116, 9, 04 36550343, 5510830, 9
+rec-330-dup-0, mia, robson, 5, hazel smith crescent, , rochedale south, 2615, nsw, 19115016, 31, 04 46555402, 9882362, 4
+rec-206-dup-0, abii, dixon, 2, court delaney, , ballarat, 4570, nsw, , 33, 02 15249629, 1192975, 5
+rec-250-dup-0, cathefine, novak, 19, drevermann street, , dalby, 3194, qld, 19980412, 39, 04 36555871, 6508853, 9
+rec-298-org,   jackson, paine, 12, vizard street, , bundaberg, 4305, sa, 19220401, , 02 54655859, 9437347, 7
+rec-474-dup-0, sachon, , 49, yiman street, , terrigal, 2445, vic, 19220129, 21, 03 85597971, 6150221, 9
+rec-39-dup-0, nicholas, beatvtoe, 670, lexcen avenue, , ballarat, 3757, wa, 19871104, 34, 07 33674823, 3429355, 0
+rec-75-dup-0, alexander, gohl, 17, nelanglobtreet, , carrum, 4214, nsw, 19130703, 28, 04 23299652, 6927570, 6
+rec-442-dup-0, grayson, trnose, 2, carruthwrsstreet, farm shed, peterhea, 5127, qld, 19320922, 25, 03 29288736, 1570048, 6
+rec-487-org,   liam, coleman, 2, goldie place, , hawthorn, 5291, qld, 19050216, 7, 03 57515156, 6523905, 9
+rec-111-dup-0, brodee, mcgrwgocr, 7, seal place, , cromer hevights, 4310, nsw, 19390508, 24, 08 76465510, 3524556, 3
+rec-315-org,   daniel, ludgate, 134, banvard place, , malvern east, 4650, nsw, 19070717, 29, 02 19729602, 3026388, 5
+rec-468-dup-0, jack, caloghiris, 13, notting court, blck 1089, nunawading, 2120, , 19016720, 39, 08 35595826, 5409221, 1
+rec-396-dup-0, larissa, gully, 30, albermarle place, , highton, 4011, nsw, 19260608, 30, 02 53217861, 2959862, 2
+rec-136-dup-0, caitlin, gillafrd, 9, woronora street, , kialla, 2577, nxw, 19700530, 36, 07 00687176, 5141544, 3
+rec-230-dup-0, bryce, cut, 13, magrath crescent, , nambour, 3130, qld, 19280105, , 08 03398455, 5696060, 3
+rec-122-org,   alissa, hassell, 15, kenyon circuit, , unanderra, 2195, act, 19370309, 25, 04 89781932, 3487813, 4
+rec-270-org,   keahley, weller, 5, chillagoe street, , willetton, 3699, vic, 19161014, 34, 02 94264777, 7868283, 2
+rec-242-dup-0, sophie, carugno, 9, yagan pace, , hayborough, 3016, nsw, , 33, 04 07095983, 1427719, 0
+rec-379-org,   samuel, brydon, 22, box place, , caulfield, 6054, sa, 19161101, 37, 02 17471957, 3229334, 1
+rec-269-org,   brooke, green, 38, lhotsky street, challicum south, hackham, 2097, qld, 19500315, 35, 07 93769525, 6347772, 3
+rec-228-dup-0, sebastian, crews, 25, carnallklose, , lalor, 2262, qld, 19630718, , 08 10748233, 1813534, 7
+rec-417-dup-0, brooke, clarke, 361, nugal place, cordboba park, morewll, 4215, nsw, 19221013, 7, 07 89434428, 8823637, 2
+rec-226-dup-0, zara, , 28, macnaughton street, marylands, wynnum west, 5196, sau, 19570827, 30, 08 33770927, 8459290, 0
+rec-385-dup-0, amy, neumann, 11, costello circuit, torrington, cavesbeach, 6105, vic, , 26, 08 47807710, 3465200, 2
+rec-85-dup-0, emiily, nel, 9, zadowxpiace, , ormond, 4371, , 19590607, 36, 08 14275165, 2660976, 6
+rec-296-dup-0, kiarnee, estyoourt, 16, croton street, cathys creek, clyde, 5089, , 19990612, 31, 02 63560804, 9736081, 5
+rec-337-dup-0, channing, whit t, 5, chippindall circuit, , leichhardt, 3280, wa, 19351026, 24, 08 96215570, 2617398, 4
+rec-497-dup-0, emiily, mccarthy, 24, bromley xdtreet, , beecroft, 2234, , 19121208, , 07 47473184, 4280532, 9
+rec-260-org,   hamish, tiller, 73, eltham place, laughalle farm, mount stuart, 3380, vic, 19710603, , 02 60848228, 6849540, 2
+rec-301-dup-0, gabrielle, gillis, 14, rossardenyrstreet, warringa, modbury heights, 2167, vic, 19570209, 31, 08 31935460, 9801843, 9
+rec-425-org,   kyle, blackwell, 314, archer street, , south west rocks, 2230, sa, , , 03 58666972, 6747615, 6
+rec-162-org,   john, fitzpatrick, 46, woodfull loop, morven, buranda, 3472, nsw, , 33, 02 40586957, 9148237, 7
+rec-349-dup-0, joshua, leaver, 17, forbes street, , proserpine, 7301, , 19830711, 21, 08 42346099, 2232867, 6
+rec-14-dup-0, lewis, madigan, 82, , , huoilwle, 6018, tas, 19001015, 11, 07 56843275, 9156534, 4
+rec-379-dup-0, samuel, brydon, 327, box place, , caulfikd, 6054, sa, , 37, 02 17471957, 3229334, 1
+rec-210-dup-0, bodhq, dixon, 21, totterdell street, , wooi, 6027, nsw, 19921025, 13, 03 10628218, 9741345, 4
+rec-411-org,   samuel, obod, 541, kelleway avenue, high valley, toowoomba, 4122, tas, 19881119, , 08 21284867, 7284407, 1
+rec-352-org,   isabella, gaskin, 36, sanford place, palm lake resort, newborough, 3192, nsw, 19390224, 29, 08 19349339, 9895565, 4
+rec-182-dup-0, mitchejll, di lernia, 1, vanzetti crescent, , planland, 3427, wa, , 30, 03 19290405, 5889353, 5
+rec-2-dup-0, frahn, daniep, 2, doyle terrace, , leongatha, 2518, vic, 19560225, 27, 04 02747463, 9686247, 1
+rec-201-dup-0, micah, mesfcke, 41, corrigan place, , eaton, 3108, nsw, , 32, 02 62414518, 1772980, 1
+rec-58-dup-0, isabella, egan, 27, malladup, foley phlace, lennox head, 3851, sa, , 31, 07 77650226, 9343227, 3
+rec-98-dup-0, alexandta, herbert, 83, stroud place, welcome swallow angus illalangi rmb 1800, tuart hill, 3611, qld, 19710226, 28, 02 22196654, 5295857, 0
+rec-354-dup-0, samuel, geraghty, 15, grimshaw syreet, , erindale, 2203, nsw, 19860129, , 02 13408577, 6445519, 2
+rec-487-dup-0, liam, coleman, 2, goldie place, , 5291, hawthorn, qld, 19050216, 32, 03 57515156, 6523905, 9
+rec-314-dup-0, connor, mayer, 57, , , braidwod, 3639, nsw, 19810702, , 02 71953908, 8345796, 5
+rec-247-org,   connor, metherell, 15, pelsart street, , terrigal, 3133, nsw, 19001214, 21, 08 15736554, 7264913, 4
+rec-302-dup-0, william, garrood, 13, vasey crescent, , ingleburn, 3550, en, 19580227, 30, 08 30824022, 6470353, 4
+rec-69-org,   isabella, kerkham, 29, wagstaff place, , knoxfield, 3137, vic, 19190517, 34, 03 70622285, 5094476, 6
+rec-29-dup-0, isabella, egglestone, 1, moorhouse street, , kardibya, 3150, nsw, 19010828, 30, 08 25589744, 5626805, 4
+rec-484-dup-0, liam, mearows, 95, jardine street, , southp erth, 3216, vic, 19570930, 29, 08 40028978, 1256413, 9
+rec-76-dup-0, danuek, whiteley, 3, jensen sxtreet, , scarborough, 3021, wa, 19150804, , 07 33718257, 1391817, 3
+rec-252-dup-0, alisa, browne, 9, monkmanqyreet, edwards chambers, yarrawoga, 2765, qld, , 28, 04 38937254, 6385202, 5
+rec-224-org,   erin, halley, 13, lawrence crescent, miranda, ivanhoe east, , vic, 19831124, 31, 08 42903586, 8555263, 9
+rec-196-org,   sophie, slape, 29, geebung place, , terrey hills, 6059, , 19930810, 29, 08 96612116, 7984729, 1
+rec-75-org,   alexander, gohl, 1, nelanglo street, , carrum, 4214, nsw, 19130703, 25, 04 23299652, 6927570, 6
+rec-17-dup-0, stephanie, white, 13, minnettclwose, wattagan, punchbowl, 3028, qld, 19620910, 37, 04 36176907, 9351424, 0
+rec-169-org,   harry, nguyen, 31, pullen street, bindaree, quorn, 5162, qld, 19440202, 9, 03 96089140, 4864726, 9
+rec-468-org,   jack, caloghiris, 13, notting court, , nunawading, 2120, , 19061120, 39, 02 35235138, 5409221, 1
+rec-178-org,   jayde, matthews, 131, narryer close, , marsfield, 6230, , 19571226, 26, 07 80552296, 8301070, 1
+rec-251-org,   ashlie, lowe, 24, pearson street, wybelanah, altona meadows, , wa, 19591023, 29, 02 21626457, 3158049, 4
+rec-24-org,   isabelle, alves, 7, james smith circuit, , orange, 2037, nsw, 19600422, , , 8359918, 8
+rec-4-org,   rachel, green, 14, carstensz street, glenlea est, o'connor, 5024, , 19170218, 31, 07 14349697, 3157696, 1
+rec-28-org,   lachlan, shadbolt, 7, cherry place, , dawesville, 2154, vic, 19480602, , 02 46464318, 9178692, 7
+rec-473-dup-0, mia, zimmermann, 11, , , , 2263, qld, 19290917, 31, , 2648970, 9
+rec-90-org,   benjamin, hazell, 4, burkitt street, black hills, new town, 6010, qld, 19950520, 10, 07 93644113, 8754447, 2
+rec-211-dup-0, coopee, stubbs, , macphersoyjstreet, , smithfield, 4270, sa, 19670418, 29, 08 63244764, 8449987, 2
+rec-174-org,   seanna, berry, 16, jones place, , dover heights, 4575, nsw, 19060305, 33, 04 36865926, 1140910, 7
+rec-12-org,   ash, bacskai, 1, copland drive, , north narrabeen, 4415, nsw, , 29, , 8121720, 0
+rec-179-dup-0, pakita, frazjn, 25, shara lpace, kmart p plaza, malvern east, 7325, qld, 19010502, 31, 04 73240648, 4067382, 5
+rec-241-org,   zoe, hammer, 476, theodore street, , new farm, 3146, vic, 19170514, 30, 03 59158293, 9023637, 9
+rec-412-dup-0, joel, khonan, 3, keith payne hstl, chauvel street, wubin, 4814, vic, , 34, 03 69998424, 8285176, 4
+rec-181-org,   kayla, , 56, lambrigg street, , wy yung, 2456, qld, 19350228, , 07 51441841, 9292072, 0
+rec-360-dup-0, emiily, greeq, 218, clive stedlwkavenue, , casula, 3220, nsw, 19570131, 29, 07 82687010, 6174561, 7
+rec-57-dup-0, mason, holgage, 12, moulden court, hilltale, boyup brook, 2580, qld, 19140718, 32, 04 76023902, 6512545, 5
+rec-336-org,   keziah, turale, 82, walhallow street, , vale park, 2068, nsw, 19000411, 32, 07 36098317, 5307214, 4
+rec-154-org,   isabelle, bouras, 62, berne crescent, the oasis, nar nar goon, 4503, vic, 19840328, , 03 13016301, 6005667, 2
+rec-456-org,   toby, monshizada, 104, murranji street, , burwood, 7250, , 19861216, 9, 04 67747045, 8599201, 1
+rec-140-org,   pearson, ryan, 75, hosking place, clifden, tingalpa, 4670, , 19060917, 7, 04 41854650, 7174018, 5
+rec-423-org,   william, bellamy, 34, nannine place, , cremorne, 3188, , , 30, 07 33956616, 5121948, 2
+rec-278-dup-0, chloe, large, 707, benson crescent, gwandalan, braidwood, 0837, wl, 19010714, 21, 08 46244173, 7691466, 2
+rec-433-org,   zachary, stanbury, 30, toutcher street, , petersham, 3960, qld, 19060615, 27, 07 62223040, 8476583, 0
+rec-31-org,   , carbone, 391, dulverton street, , glenning valley, 3183, qld, 19221024, 33, 02 27188287, 4241469, 0
+rec-127-org,   michael, res, 12, frencham place, amarra station, broadmeadows, 6027, nsw, 19560905, , 07 53932432, 9854984, 4
+rec-274-dup-0, alysha, akker, 133, , , peakhurst, 5607, qld, 19680402, 36, 04 65133343, 9321335, 5
+rec-348-dup-0, felicity, rocca, 6, mansfield place, toombali, , 3630, vic, 19091005, 39, 07 21357084, 5436985, 7
+rec-427-org,   jed, david, 12, herbert crescent, , seaton, 5088, qld, 19880528, 25, 03 57272904, 6076618, 1
+rec-88-org,   aloysius, bradshaw, 61, hurley street, springdale, shellharbour, 3078, nsw, 19770708, 22, 04 08435302, 5595893, 8
+rec-112-org,   tara, tow, 10, weaver place, , kinglake, 4554, qld, 19620217, 29, 03 94954984, 6209303, 1
+rec-481-dup-0, , clarke, 54, glencross street, , palmerston, 4132, , 19220202, , 02 07499321, 2642610, 8
+rec-85-org,   emiily, nel, 9, zadow place, , ormond, 4371, , 19590607, 34, 08 14275165, 2660976, 6
+rec-203-dup-0, , stearnes, 28, moodie street, , wynnum west, 3162, act, 19722091, , , 7120254, 3
+rec-400-dup-0, mikayla, jolly, 1, shortland crescent, , yagoona, 2230, tas, 19280643, 29, 08 51226674, 4228410, 3
+rec-143-dup-0, jaslyn, dumpe, 6, , , brooiiale, 2300, vic, 19609718, 22, 02 58574080, 3433114, 0
+rec-95-org,   shane, capurso, 81, jacka crescent, , blacktown, 7310, vic, 19600715, 20, 02 81494438, 1619931, 0
+rec-114-dup-0, webb, sylvie, 170, sparkesnclose, torr dean, belgian gardens, 2171, sab, 19531201, 26, 02 34225632, 1634094, 9
+rec-393-dup-0, angus, hingston, 13, kirwan circuit, arcadia, florcajill, 2261, nse, 19171119, 24, , 1286625, 0
+rec-457-dup-0, willian, d'emden, 4, place mitta, , mooroolbark, 6172, qld, 19210529, 34, 02 71968518, 9341485, 9
+rec-448-dup-0, mila, clarke, 19, batchelor street, lyndale park, 4032, wavelrey, nsw, 19580328, 35, 08 93972879, 9415011, 3
+rec-402-org,   ethan, harbottle, 12, andrews street, the willows, clayton, 2148, nsw, 19820427, 40, 04 23369366, 8531613, 0
+rec-441-dup-0, bailee, carusea, 27, simmons place, , newmarket, 3044, wa, 19511420, 30, 07 35822052, 9849331, 0
+rec-319-org,   harley, matthews, 48, kinkead street, , forbes, 7256, qld, 19290420, , 03 55795637, 7972319, 7
+rec-422-dup-0, aiden, botham, 14, throssell street, warialda, 2280, berala, sa, 19620902, 9, 07 36355131, 9149267, 3
+rec-226-org,   zara, mcvilly, 20, macnaughton street, marylands, wynnum west, 5169, sa, 19570827, 30, 08 33770927, 8459290, 0
+rec-55-dup-0, isabella, haupt, 20, grunrr dreet, appleglen, huntfield heights, 3910, war, 19100903, 29, 03 35604452, 4282164, 4
+rec-238-org,   julia, so, 103, caley crescent, medical centre, nuriootpa, 2305, nsw, 19540503, 31, 03 06248527, 3542784, 8
+rec-222-dup-0, lachlan, paterson, 57, crofts crescent, lawless, hawton, 3121, vic, 19370519, 30, 04 14350370, 4381415, 5
+rec-365-org,   alexandra, braithwaite, 22, johnstone circuit, , glendale, 4700, vic, 19860907, 11, 03 03833042, 5762372, 2
+rec-277-dup-0, courtney, bottroff, 10, hann street, marretah, williamstpwn, 3546, vic, 19870916, 24, 03 61261397, 2427277, 4
+rec-242-org,   sophie, carugno, 6, yagan place, , hayborough, 3016, nsw, , 33, 04 07095983, 1427719, 0
+rec-17-org,   stephanie, white, 13, minnett close, wattagan, punchbowl, 3028, qld, 19620910, 37, 04 36176907, 9351424, 0
+rec-30-dup-0, james, wilson-hafuenden, 33, beattie crescent, , brayprk, 9341, sa, 19181006, , 03 94736298, 9844636, 9
+rec-186-org,   , webb, 23, shasta place, freonbrae, mount isa, 2133, qld, 19501203, 32, 07 93565210, 6664503, 6
+rec-324-dup-0, adan, tiller, 5, atherton street, , sunshine, 2583, nsw, 19930528, , 07 29798962, 8512428, 5
+rec-363-org,   isabelle, longden, 79, de chair street, old post office, orelia, 2088, vic, 19031108, 24, 07 10499419, 5146677, 2
+rec-59-org,   , schumann, 8, duggan street, , mckinnon, , , 19110327, 12, 07 22012044, 2488902, 0
+rec-163-dup-0, alicia, shepehhd, 5, mair place, , north sydney, , wag, 19780930, , 04 65877093, 5081898, 2
+rec-248-org,   benjamin, belperio, 2, hilder street, , toowong, 3551, qld, 19160116, 25, 04 99806237, 4388186, 3
+rec-86-org,   ella, parr, 74, sid barnes crescent, , watsonia, 4115, vic, 19691208, 34, 07 91866300, 8840841, 8
+rec-479-org,   tristan, morrison, 177, mayo street, , nambour, 4702, vic, 19680117, 29, 04 66794249, 2448009, 3
+rec-472-dup-0, franecsco, priest, 9, lakefield, , brighton, 7108, vic, 19751026, 40, 03 65988663, 1018556, 4
+rec-44-dup-0, jessica, bitmead, 1, gouger street, , preston, 2209, , 19720203, 19, 04 02086798, 1995548, 5
+rec-141-dup-0, tahni, markowski, 69, pinkerton circuit, , halifax, 2259, nsw, 19511336, 24, 03 59574155, 7500222, 4
+rec-152-org,   todd, tram, 25, warrumbul street, , clayton, 2484, nsw, 19190828, 36, 02 90782671, 4029932, 7
+rec-399-dup-0, konstahtunos, reid, 8, marsdenys ureet, , werrington, 2233, nsw, 19901124, , 02 98285143, 4475537, 1
+rec-351-dup-0, olifia, wepbh, 1069, mackrel l place, , auburn, 2193, vic, 19040614, 20, 07 12233475, 4381654, 0
+rec-311-org,   lachlan, crouch, 28, maharatta circuit, , innaloo, 6112, , 19921103, , 07 55534600, 2069059, 0
+rec-210-org,   bodhi, dixon, 12, totterdell street, , wooli, 6027, nsw, 19921025, 13, 03 10628218, 9741345, 4
+rec-24-dup-0, isabelle, albes, 353, james smith circuit, villa 2, orange, 2037, nsw, 19600422, , , 8359918, 8
+rec-265-org,   jayden, creagh, 39, mudge place, , brighton, 2586, nsw, 19750509, 24, 03 71974323, 9179014, 0
+rec-79-org,   , nederpel, 510, middleton circuit, , mosman, 2617, vic, 19430820, 29, 03 30247608, 5080860, 3
+rec-357-dup-0, kenneth, millkqr, 87, , , nedladns, 0830, qld, 19710928, 28, 03 15950675, 5298462, 8
+rec-102-org,   ruby, riding, 85, tadgell place, , pallarenda, 6109, vic, 19150724, 32, 08 44297080, 3527052, 7
+rec-224-dup-0, erin, halley, 13, lawrencecewscent, , ivanhoe east, , vic, 19831124, 31, 08 42903586, 8555263, 9
+rec-342-dup-0, izdc, morrison, 211, somerset street, locn 1699, tumbarumba, 3175, qld, 19161198, 32, 02 71798144, 2675060, 3
+rec-64-dup-0, holly, gallohdky, 49, ross smith crescent, , edgewatwr, 2168, vic, , , 04 88049921, 9143666, 9
+rec-466-org,   , priest, 30, brereton street, woodleigh, charlestown, 2026, qld, 19570209, 34, 04 41385542, 8214612, 9
+rec-299-org,   emiily, grossman, 52, dobie place, the willows, enoggera, 3108, tas, 19640901, 28, 08 10809759, 9131103, 2
+rec-337-org,   channing, white, 4, chippindall circuit, , leichhardt, 3280, wa, 19351026, 24, 08 96215570, 2617398, 4
+rec-366-dup-0, stephanie, bellchambers, 24, rodda place, , rochedale south, 3224, qls, 19960830, 36, 04 29937430, 4231030, 8
+rec-59-dup-0, , schunann, 8, duggan ctreet, , mckinbom, , , , 12, 07 22012044, 2488902, 0
+rec-444-dup-0, brdek, large, 28, keverston ecircuit, , clakson, 4006, qld, , 30, 07 90960524, 3562376, 1
+rec-270-dup-0, keahey, weller, 5, chillagoe street, , willetton, 3699, qld, 19161014, 34, 02 94264777, 7868283, 2
+rec-220-org,   georgia, middlebrook, 35, clarkson street, , mullaway, 2546, nsw, 19860522, 26, 07 02831577, 9291487, 0
+rec-234-dup-0, ruy, ryan, 106, nairn pkave, airlie, mooloolaba, 2195, vic, 19200707, , , 7031892, 5
+rec-86-dup-0, pard, eloa, 74, sid barnes crescent, , watsonia, 4115, vic, 19691208, 34, 07 91856300, 8840841, 8
+rec-155-dup-0, jasmine, white, 28, ellerston avenue, , preston, 5041, sa, , , 07 08760645, 6521049, 6
+rec-186-dup-0, , webb, 23, shasta loace, freonbrae, mountiisa, 2133, qldl, 19501203, 32, 07 93565210, 6664503, 6
+rec-148-org,   kiria, clarke, 84, bingley crescent, , cleveland, 2138, wa, 19600523, , 03 32632552, 8721840, 4
+rec-15-org,   briony, matthews, 15, florey drive, , wantirna, 5280, nsw, 19800917, 28, 08 40866584, 1965734, 4
+rec-237-org,   olivia, coulls, 26, pennefather street, coolalinga village, waverley, 2226, qld, 19651016, 30, 03 32205604, 5982621, 5
+rec-103-dup-0, emma, fenlick, 7, bandjalong crescent, , kingston, 3064, wa, 19410122, 24, 08 62935847, 1902625, 3
+rec-485-dup-0, , hyland, 87, midwood court, , , 4740, nse, , 33, 04 56228841, 2334373, 1
+rec-48-dup-0, liam, , 5, burdekin street, , murray bigde, 3141, tas, 19946219, 10, 02 72236827, 6393971, 7
+rec-443-dup-0, shawn, campbell, 43, james scot close, , wantirna, 2170, vic, 19537730, 26, 02 93524681, 2772049, 8
+rec-55-org,   isabella, haupt, 20, gruner street, appleglen, huntfield heights, 3910, wa, 19100903, 29, 04 24776568, 4282164, 4
+rec-378-org,   lachlan, nye, 26, altson circuit, , mansfield, 2500, vic, 19680708, 28, 02 28093383, 2363993, 6
+rec-91-dup-0, joshua, grigmm, 46, , , cranbourne, 3921, nsw, , , 08 79092837, 8274132, 6
+rec-49-org,   lachlan, santi, 16, gosse street, kurrajong, cooloongup, 6023, vic, 19850909, 38, 07 37249656, 2231480, 7
+rec-113-dup-0, kiara, mayate, 67, , bogabigal, bargara, 6107, vic, 19510417, 13, 03 67265115, 4171978, 5
+rec-65-org,   lucas, mason, 7, thornhill crescent, , bray park, 3181, nsw, 19490308, , 07 46673029, 2829727, 5
+rec-286-dup-0, sophie, waller, , vasey crescent, , mckail, 5490, nsw, 19411016, 12, 02 50168240, 6702818, 3
+rec-117-org,   keziah, corre, 25, cockle street, nanjomara, south brisbane, 4650, , 19530801, 22, 07 97579867, 5323245, 2
+rec-482-org,   nikita, christerson, 8, williamson street, , peregian beach, 4151, nsw, 19450719, 33, 07 78514419, 7219637, 0
+rec-111-org,   brodee, mcgregor, 7, seal place, , cromer heights, 4301, nsw, 19390508, 24, 02 22831462, 3524556, 3
+rec-407-org,   elijah, lymberis, 1, chippindall circuit, beachfront caravan park, surat, 6153, vic, 19891016, 33, 03 89486036, 1136293, 1
+rec-260-dup-0, hamish, tiller, 44, eltham place, , mount stuart, 3380, vic, 19719603, , 02 60848228, 8771309, 2
+rec-392-dup-0, paris, tarooki, 32, gibbes place, , larg, 4017, vic, 19210104, , 08 87500213, 8661098, 5
+rec-440-dup-0, mikayla, estcuut, 40, aspinall street, bogandina prop, balwyn north, 3608, vic, , 38, 02 46513696, 1842959, 5
+rec-244-org,   libby, blake, 1, langridge street, , mosman, 5043, sa, 19970618, 22, 02 04846994, 5811767, 1
+rec-480-dup-0, breana, sarossy, 27, stockdale street, sheep station, currambne, 2657, vic, 19300325, 32, 03 58176025, 6328137, 4
+rec-254-dup-0, jayden, , 332, chipperfield circuit, grandview, enoggera, 7015, wan, 19470608, , 03 04698944, 3706044, 9
+rec-267-org,   michael, noble, 96, leahy close, , raby, 0835, qld, 19250815, , 04 25060935, 7443679, 2
+rec-128-org,   alysha, okely, 78, shortland crescent, , glenaroua, 2194, wa, 19731204, , 07 21569668, 4204992, 5
