@@ -5,8 +5,8 @@ import sys
 import febrl_data_transform as transform
 import pandas as pd
 
-OUTPUT_DATA_DIR = pathlib.Path(__file__).parent / "evaluation"
-ORIGINALS_DATA_DIR = pathlib.Path(__file__).parent / "evaluation" / "originals"
+OUTPUT_DATA_DIR = pathlib.Path(__file__).parent / "holdout"
+ORIGINALS_DATA_DIR = pathlib.Path(__file__).parent / "holdout" / "originals"
 
 
 def main():
