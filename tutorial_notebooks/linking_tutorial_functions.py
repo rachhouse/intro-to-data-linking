@@ -245,23 +245,14 @@ def compare(
 
 def evaluate_linking(
     df: pd.DataFrame,
-    df_true_links: pd.DataFrame,
-    df_left: pd.DataFrame,
-    df_right: pd.DataFrame,
     score_column_name: Optional[str] = "model_score",
     ground_truth_column_name: Optional[str] = "ground_truth",
-    k: int = 10,
 ) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
-    """Use model results to calculate precision & recall metrics, top k links,
-        and bottom k links.
+    """Use model results to calculate precision & recall metrics.
 
     Args:
         df: dataframe containing model scores, and ground truth labels
             indexed on df_left index, df_right index
-        df_true_links: dataframe containing true links,
-            indexed on df_left index, df_right index
-        df_left: dataframe containing attributes for "left"-linked entities
-        df_right: dataframe containing attributes for "right"-linked entities
         score_column_name: Optional string name of column containing model scores
         ground_truth_column_name: Optional string name of column containing ground
             truth values
@@ -269,16 +260,14 @@ def evaluate_linking(
     Returns:
         Tuple containing:
             pandas dataframe with precision and recall evaluation data
-            pandas dataframe with top k scoring links
-            pandas dataframe with bottom k scoring links
+            at varying score thresholds
     """
+    eval_data = []
+    max_score = max(1, max(df[score_column_name]))
 
     # Calculate eval data at threshold intervals from zero to max score.
     # Max score is generally 1.0 if using a ML model, but with SimSum it
     # can get much larger.
-    eval_data = []
-    max_score = max(1, max(df[score_column_name]))
-
     for threshold in np.linspace(0, max_score, 50):
         tp = df[
             (df[score_column_name] >= threshold)
@@ -296,17 +285,17 @@ def evaluate_linking(
             (df[score_column_name] < threshold) & (df[ground_truth_column_name] == True)
         ].shape[0]
 
-        if tp + fp == 0:
-            precision = None
-        else:
+        if (tp + fp) > 0:
             precision = tp / (tp + fp)
-
-        if tp + fn == 0:
-            recall = None
         else:
-            recall = tp / (tp + fn)
+            precision = None
 
-        if (precision is None) or (recall is None):
+        if (tp + fn) > 0:
+            recall = tp / (tp + fn)
+        else:
+            recall = None
+
+        if (recall is None) or (precision is None):
             f1 = None
         else:
             f1 = 2 * ((precision * recall) / (precision + recall))
@@ -324,55 +313,63 @@ def evaluate_linking(
             }
         )
 
-    # Assemble the top and bottom k links (sorted by model score).
-    # This is done by sorting the model results frame by score, capping rows at k,
-    # and then joining the original link entity data via the dataframe indices.
+    return pd.DataFrame(eval_data)
+
+
+def augment_scored_pairs(
+    df: pd.DataFrame,
+    df_left: pd.DataFrame,
+    df_right: pd.DataFrame,
+    score_column_name: Optional[str] = "model_score",
+    ground_truth_column_name: Optional[str] = "ground_truth",
+) -> pd.DataFrame:
+    """Augment scored pairs with original entity attribute data.
+
+    Args:
+        df: dataframe containing pairs for examination that includes
+            model scores and ground truth labels, and is indexed on
+            df_left index, df_right index
+        df_left: dataframe containing attributes for "left"-linked entities
+        df_right: dataframe containing attributes for "right"-linked entities
+        score_column_name: Optional string name of column containing model scores
+        ground_truth_column_name: Optional string name of column containing ground
+            truth values
+
+    Returns:
+        Tuple containing:
+            pandas dataframe containing pairs augmented with original
+            entity attributes
+    """
+
+    df = df[[score_column_name, ground_truth_column_name]]
+
+    # Suffix our original attribute fields for display convenience when
+    # we examine the links in the notebook.
+    df_left = df_left.copy()
+    df_left.columns = df_left.columns.map(lambda x: str(x) + "_A")
+
+    df_right = df_right.copy()
+    df_right.columns = df_right.columns.map(lambda x: str(x) + "_B")
+
+    # Join the original link entity data via the dataframe indices.
     # This gives us the model score as well as the actual human-readable attributes
     # for each link.
-    def _join_original_entity_data_to_links(
-        df_k_links: pd.DataFrame, df_left: pd.DataFrame, df_right: pd.DataFrame
-    ) -> pd.DataFrame:
-        """Helper function to join entity data to a dataframe of link results."""
-
-        # Join data from left entities.
-        df_k_links = pd.merge(
-            df_k_links,
-            df_left,
-            left_on=df_left.index.name,
-            right_index=True,
-        )
-
-        # Join data from right entities.
-        return pd.merge(
-            df_k_links,
-            df_right,
-            left_on=df_right.index.name,
-            right_index=True,
-        )
-
-    df_top_k_links = _join_original_entity_data_to_links(
-        df[[score_column_name, ground_truth_column_name]]
-        .sort_values(score_column_name, ascending=False)
-        .head(n=k)
-        .reset_index(),
+    df_augmented_pairs = pd.merge(
+        df,
         df_left,
-        df_right,
+        left_on=df_left.index.name,
+        right_index=True,
     )
 
-    df_bottom_k_links = _join_original_entity_data_to_links(
-        df[[score_column_name, ground_truth_column_name]]
-        .sort_values(score_column_name)
-        .head(n=k)
-        .reset_index(),
-        df_left,
+    # Join data from right entities.
+    df_augmented_pairs = pd.merge(
+        df_augmented_pairs,
         df_right,
+        left_on=df_right.index.name,
+        right_index=True,
     )
 
-    return (
-        pd.DataFrame(eval_data),
-        df_top_k_links,
-        df_bottom_k_links,
-    )
+    return df_augmented_pairs
 
 
 def plot_model_score_distribution(
@@ -460,9 +457,28 @@ def plot_precision_recall_vs_threshold(df: pd.DataFrame) -> alt.Chart:
     Returns:
         altair Chart object
     """
-    pr_at_threshold = (
+
+    df = df.copy()
+
+    def _create_tooltip_label(threshold, precision, recall) -> str:
+        return f"threshold: {round(threshold, 3)}\nprecision: {round(precision,3)}\nrecall: {round(recall,3)}"
+
+    df["label"] = df.apply(
+        lambda x: _create_tooltip_label(x["threshold"], x["precision"], x["recall"]),
+        axis=1,
+    )
+
+    df = df[["label", "threshold", "recall", "precision"]].melt(
+        id_vars=["threshold", "label"]
+    )
+
+    nearest = alt.selection(
+        type="single", nearest=True, on="mouseover", fields=["threshold"], empty="none"
+    )
+
+    precision_recall_chart = (
         alt.Chart(
-            df[["threshold", "recall", "precision"]].melt(id_vars=["threshold"]),
+            df,
             title="Precision and Recall v.s. Model Threshold",
         )
         .mark_line()
@@ -476,8 +492,115 @@ def plot_precision_recall_vs_threshold(df: pd.DataFrame) -> alt.Chart:
             alt.Color("variable:N", legend=alt.Legend(title="Variable")),
             tooltip=alt.Tooltip(["variable", "threshold", "value"]),
         )
+    )
+
+    selectors = (
+        alt.Chart(df)
+        .mark_point()
+        .encode(
+            x="threshold",
+            opacity=alt.value(0),
+        )
+        .add_selection(nearest)
+    )
+
+    points = precision_recall_chart.mark_point().encode(
+        opacity=alt.condition(nearest, alt.value(1), alt.value(0))
+    )
+
+    tooltip_text = precision_recall_chart.mark_text(
+        align="right", dx=-10, dy=-5, lineBreak="\n", fontWeight=300
+    ).encode(text=alt.condition(nearest, "label", alt.value(" ")))
+
+    rule = (
+        alt.Chart(df)
+        .mark_rule(color="gray")
+        .encode(
+            x="threshold",
+        )
+        .transform_filter(nearest)
+    )
+
+    return (
+        alt.layer(precision_recall_chart, selectors, points, rule, tooltip_text)
         .properties(height=400, width=800)
         .interactive()
     )
 
-    return pr_at_threshold
+
+def plot_f1_score_vs_threshold(df: pd.DataFrame) -> alt.Chart:
+    """Generate an altair plot of model f1 score at varying thresholds.
+
+    Args:
+        df: pandas dataframe containing f1 values at given thresholds
+            (output dataframe from evaluate_linking)
+
+    Returns:
+        altair Chart object
+    """
+
+    df = df.copy()
+
+    def _create_tooltip_label(threshold, f1) -> str:
+        return f"threshold: {round(threshold, 3)}\nf1: {round(f1,3)}"
+
+    df["label"] = df.apply(
+        lambda x: _create_tooltip_label(x["threshold"], x["f1"]), axis=1
+    )
+
+    nearest = alt.selection(
+        type="single", nearest=True, on="mouseover", fields=["threshold"], empty="none"
+    )
+
+    f1_chart = (
+        alt.Chart(
+            df,
+            title="F1 Score v.s. Model Threshold",
+        )
+        .mark_line()
+        .encode(
+            alt.X("threshold:Q", axis=alt.Axis(title="Model Threshold")),
+            alt.Y(
+                "f1:Q",
+                scale=alt.Scale(domain=(0, 1)),
+                axis=alt.Axis(title="F1 Value"),
+            ),
+        )
+    )
+
+    selectors = (
+        alt.Chart(df)
+        .mark_point()
+        .encode(
+            x="threshold",
+            opacity=alt.value(0),
+        )
+        .add_selection(nearest)
+    )
+
+    points = f1_chart.mark_point().encode(
+        opacity=alt.condition(nearest, alt.value(1), alt.value(0))
+    )
+
+    tooltip_text = f1_chart.mark_text(
+        align="right",
+        dx=-10,
+        dy=-5,
+        lineBreak="\n",
+        fontWeight=300,
+    ).encode(text=alt.condition(nearest, "label", alt.value(" ")))
+
+    rule = (
+        alt.Chart(df)
+        .mark_rule(color="gray")
+        .encode(
+            x="threshold",
+        )
+        .transform_filter(nearest)
+    )
+
+    return (
+        alt.layer(f1_chart, selectors, points, rule, tooltip_text)
+        .properties(height=400, width=800)
+        .interactive()
+    )
