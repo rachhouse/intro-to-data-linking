@@ -130,3 +130,6 @@ dmypy.json
 
 # Mac
 .DS_Store
+
+# tutorial
+dedupe_active_learning/
